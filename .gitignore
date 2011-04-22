@@ -1,2 +1,5 @@
 *.zip 
 config.php
+.project
+.settings/
+.settings/*

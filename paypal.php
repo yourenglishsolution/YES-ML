@@ -39,6 +39,8 @@ if(isset($_GET['op']))
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $req);
 	$result = curl_exec($ch);
 	
+	mail('j.pouillard@effigie-creations.com', 'debug', $result);
+	
 	if(strcmp($result, "VERIFIED") == 0)
 	{
 		if(PAYPAL_EMAIL == $data['receiver_email'] && isset($data['custom']))
