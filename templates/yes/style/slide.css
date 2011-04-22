@@ -1,0 +1,38 @@
+/* ********************************** */
+
+#helpSlide{
+	position:absolute;
+	width:700px;
+	height:500px;
+}
+
+#helpSlide span{
+	float:left;
+}
+
+.slideMask{
+	position:relative;
+	width:700px;
+	height:500px;
+	overflow:hidden;
+}
+
+.leftButton {
+	position:relative;
+	float:left;
+	top:45%;
+	width:23px;
+	height:41px;
+	background:url(./images/slide_arrow1.png) no-repeat transparent;
+	margin-left:0;
+}
+
+.rightButton {
+	position:relative;
+	float:right;
+	top:45%;
+	width:23px;
+	height:41px;
+	background:url(./images/slide_arrow2.png) no-repeat transparent;
+	margin-right:0px;
+}

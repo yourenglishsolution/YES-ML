@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">  
+  <channel> 
+    <title>BBC News - Europe</title>  
+    <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world/europe/</link>  
+    <description>The latest stories from the Europe section of the BBC News web site.</description>  
+    <language>en-gb</language>  
+    <lastBuildDate>Fri, 01 Apr 2011 11:25:42 GMT</lastBuildDate>  
+    <copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.</copyright>  
+    <ttl>15</ttl>  
+    <atom:link href="http://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>  
+    <item> 
+      <title>Gaddafi envoy has talks in London</title>  
+      <description>A Libyan envoy representing Colonel Gaddafi has been in London in the past few days for talks with British officials, the BBC understands.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12930169</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-africa-12930169</guid>  
+      <pubDate>Fri, 01 Apr 2011 06:58:30 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954544_011661656-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954546_011661656-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Bosnia handed Fifa football ban</title>  
+      <description>Bosnia-Hercegovina are suspended from world football after refusing to comply with governing body Fifa's regulations.</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/sport1/hi/football/12933096.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/sport1/hi/football/12933096.stm</guid>  
+      <pubDate>Fri, 01 Apr 2011 11:12:39 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51957000/jpg/_51957301_bosnia466.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51957000/jpg/_51957304_bosnia466.jpg"/> 
+    </item>  
+    <item> 
+      <title>UN rejects Georgia case over war</title>  
+      <description>The United Nations' top court rejects a case filed by Georgia that accuses Russia and separatist rebels of ethnic cleansing.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12935149</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12935149</guid>  
+      <pubDate>Fri, 01 Apr 2011 11:19:34 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/50328000/jpg/_50328111_006082051-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/50330000/jpg/_50330464_006082035-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Italy moves migrants to mainland</title>  
+      <description>Italy moves 1,716 North African migrants to a mainland camp site, easing overcrowding on the isle of Lampedusa.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12932904</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12932904</guid>  
+      <pubDate>Fri, 01 Apr 2011 10:12:34 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51959000/jpg/_51959043_migrtr.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51959000/jpg/_51959045_migrtr.jpg"/> 
+    </item>  
+    <item> 
+      <title>German state sued by nuclear firm</title>  
+      <description>German energy giant RWE takes legal action against the state of Hesse after being ordered to close a nuclear power plant.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/business-12933596</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-12933596</guid>  
+      <pubDate>Fri, 01 Apr 2011 09:45:45 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51958000/jpg/_51958081_51956989.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51958000/jpg/_51958083_51956989.jpg"/> 
+    </item>  
+    <item> 
+      <title>Bank of Ireland shares jump 36%</title>  
+      <description>Bank of Ireland shares jump as investors hope the government will not take a majority stake in the firm following bank stress tests.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/business-12932334</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-12932334</guid>  
+      <pubDate>Fri, 01 Apr 2011 11:05:57 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51959000/jpg/_51959163_51956918.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51959000/jpg/_51959258_51959169.jpg"/> 
+    </item>  
+    <item> 
+      <title>Austria 'Obama-mask robber' held</title>  
+      <description>Austria police have arrested a man suspected of robbing banks while wearing a mask of US President Barack Obama.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12923582</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12923582</guid>  
+      <pubDate>Thu, 31 Mar 2011 21:58:18 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/50900000/jpg/_50900405_011073106-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/50901000/jpg/_50901663_011073106-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>'Bomb plot' at Borussia Dortmund</title>  
+      <description>German police say they have detained a 25-year-old man after three suspected explosive devices were found outside Borussia Dortmund's stadium.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12929623</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12929623</guid>  
+      <pubDate>Thu, 31 Mar 2011 21:32:45 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954093_011662365-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954092_011662365-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Portugal misses borrowing target</title>  
+      <description>The Portuguese governments admits it overshot its 2010 budget deficit target, sending its cost of borrowing to yet new highs.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/business-12923877</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-12923877</guid>  
+      <pubDate>Thu, 31 Mar 2011 20:00:47 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51796000/jpg/_51796026__50730433_portugal.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51943000/jpg/_51943795_portugalcrisisbail-outdebtdeficit.jpg"/> 
+    </item>  
+    <item> 
+      <title>M&amp;S to return to French market</title>  
+      <description>Marks and Spencer says it is to re-enter the French retail market, 10 years after shutting down its European stores.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/business-12931495</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-12931495</guid>  
+      <pubDate>Fri, 01 Apr 2011 11:17:15 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/50111000/jpg/_50111655_010604317-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/50111000/jpg/_50111757_010601143-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Judo medallist falls to her death</title>  
+      <description>Austrian judo medallist Claudia Heill, who won silver at the Athens Olympics, dies after falling from a sixth-floor window in Vienna.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12922233</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12922233</guid>  
+      <pubDate>Thu, 31 Mar 2011 15:32:40 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51946000/jpg/_51946630_011660331-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51945000/jpg/_51945357_011660331-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Sarkozy calls for nuclear rules</title>  
+      <description>The French president calls for clear international standards on nuclear safety as the crisis at Japan's Fukushima nuclear plant continues.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-asia-pacific-12925358</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-pacific-12925358</guid>  
+      <pubDate>Thu, 31 Mar 2011 16:21:37 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51949000/jpg/_51949522_51949521.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51948000/jpg/_51948354_51948351.jpg"/> 
+    </item>  
+    <item> 
+      <title>'Historic day' for South Downs National Park</title>  
+      <description>Supporters herald a 'historic day' as the South Downs National Park Authority becomes fully operational.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/uk-england-12930989</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-england-12930989</guid>  
+      <pubDate>Fri, 01 Apr 2011 06:40:58 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51940000/jpg/_51940260_007099755.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51940000/jpg/_51940259_51940251.jpg"/> 
+    </item>  
+    <item> 
+      <title>Chef prodigy feeds entire Belfast school</title>  
+      <description>Award-winning teenage chef cooks up a storm for school dinners</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/uk-northern-ireland-12926273</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-northern-ireland-12926273</guid>  
+      <pubDate>Fri, 01 Apr 2011 05:43:13 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51949000/jpg/_51949901_chef2.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51949000/jpg/_51949899_chef2.jpg"/> 
+    </item>  
+    <item> 
+      <title>Eurozone unemployment rate falls</title>  
+      <description>Unemployment among the 17 EU countries that make up the eurozone falls below the 10% barrier, according to the latest statistics</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/business-12934941</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-12934941</guid>  
+      <pubDate>Fri, 01 Apr 2011 11:13:40 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51956000/jpg/_51956841_48925986.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51960000/jpg/_51960659_48925986.jpg"/> 
+    </item>  
+    <item> 
+      <title>Irish manufacturing 'holding up'</title>  
+      <description>The Irish Republic's manufacturing sector is doing well in spite of the crisis in the country's banking system, a survey indicates.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/business-12931167</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-12931167</guid>  
+      <pubDate>Fri, 01 Apr 2011 07:20:15 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954905_51954901.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954906_51954901.jpg"/> 
+    </item>  
+    <item> 
+      <title>Nadal v Federer in Miami</title>  
+      <description>Rafael Nadal will play Roger Federer in the US for the first time in six years, in the Sony Ericsson Open semi-finals.</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/sport1/hi/tennis/12928845.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/sport1/hi/tennis/12928845.stm</guid>  
+      <pubDate>Fri, 01 Apr 2011 06:24:00 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51955000/jpg/_51955042_011665139-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51955000/jpg/_51955044_011665253-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Paatelainen is new Finland boss</title>  
+      <description>Mixu Paatelainen leaves Kilmarnock to take over as the manager of Finland.</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/sport1/hi/football/12860198.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/sport1/hi/football/12860198.stm</guid>  
+      <pubDate>Thu, 31 Mar 2011 12:01:34 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51845000/jpg/_51845549_mixu.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51845000/jpg/_51845547_mixu.jpg"/> 
+    </item>  
+    <item> 
+      <title>Guard arrested near 2012 stadium</title>  
+      <description>A security guard is arrested near the Olympic Stadium in east London on suspicion of possessing explosives.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/uk-england-london-12916185</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-england-london-12916185</guid>  
+      <pubDate>Thu, 31 Mar 2011 12:00:55 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51925000/jpg/_51925485_111056055.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51925000/jpg/_51925588_111056055.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: European Parliament</title>  
+      <description>European Parliament president Jerzy Buzek has promised a "zero tolerance" approach to corruption amongst MEPs.</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/democracylive/hi/europe/newsid_9428000/9428958.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/democracylive/hi/europe/newsid_9428000/9428958.stm</guid>  
+      <pubDate>Wed, 23 Mar 2011 15:09:46 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51807000/jpg/_51807705_-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51807000/jpg/_51807706_-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Albania</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1004234.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1004234.stm</guid>  
+      <pubDate>Wed, 16 Mar 2011 11:07:51 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Andorra</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/992562.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/992562.stm</guid>  
+      <pubDate>Tue, 07 Dec 2010 16:36:11 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Armenia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1108052.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1108052.stm</guid>  
+      <pubDate>Thu, 31 Mar 2011 08:57:06 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Austria</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1032215.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1032215.stm</guid>  
+      <pubDate>Tue, 08 Mar 2011 14:19:53 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Azerbaijan</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1235976.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1235976.stm</guid>  
+      <pubDate>Thu, 31 Mar 2011 09:01:07 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Belarus</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1102180.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1102180.stm</guid>  
+      <pubDate>Tue, 29 Mar 2011 11:18:02 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Belgium</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/999709.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/999709.stm</guid>  
+      <pubDate>Wed, 01 Dec 2010 16:08:55 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Bosnia-Hercegovina</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1066886.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1066886.stm</guid>  
+      <pubDate>Thu, 03 Mar 2011 09:52:22 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Bulgaria</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1059735.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1059735.stm</guid>  
+      <pubDate>Sat, 12 Feb 2011 16:52:06 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Croatia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1097128.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1097128.stm</guid>  
+      <pubDate>Thu, 04 Nov 2010 12:17:25 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Cyprus</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1016541.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1016541.stm</guid>  
+      <pubDate>Thu, 03 Mar 2011 11:02:39 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Czech Republic</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1108489.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1108489.stm</guid>  
+      <pubDate>Wed, 16 Feb 2011 13:00:22 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Denmark</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1032760.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1032760.stm</guid>  
+      <pubDate>Thu, 03 Feb 2011 15:46:31 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Estonia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1106425.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1106425.stm</guid>  
+      <pubDate>Tue, 08 Mar 2011 10:48:41 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Finland</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1023629.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1023629.stm</guid>  
+      <pubDate>Wed, 30 Mar 2011 13:52:02 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>France</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/998481.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/998481.stm</guid>  
+      <pubDate>Wed, 03 Nov 2010 15:39:03 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Georgia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1102477.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1102477.stm</guid>  
+      <pubDate>Thu, 31 Mar 2011 11:42:17 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Germany</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1047864.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1047864.stm</guid>  
+      <pubDate>Tue, 29 Mar 2011 16:30:56 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Greece</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1009249.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1009249.stm</guid>  
+      <pubDate>Sat, 12 Feb 2011 11:41:30 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Hungary</title>  
+      <description>Kay facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1049641.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1049641.stm</guid>  
+      <pubDate>Wed, 16 Feb 2011 16:54:21 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Iceland</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1025227.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1025227.stm</guid>  
+      <pubDate>Thu, 17 Feb 2011 11:03:02 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Ireland</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1038581.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1038581.stm</guid>  
+      <pubDate>Sat, 12 Mar 2011 11:55:58 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Italy</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1065345.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1065345.stm</guid>  
+      <pubDate>Wed, 16 Feb 2011 15:46:44 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Latvia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1106666.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1106666.stm</guid>  
+      <pubDate>Thu, 04 Nov 2010 10:01:51 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Liechtenstein</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1066002.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1066002.stm</guid>  
+      <pubDate>Thu, 03 Mar 2011 11:33:27 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Lithuania</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1106095.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1106095.stm</guid>  
+      <pubDate>Wed, 17 Nov 2010 10:56:58 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Luxembourg</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1061821.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1061821.stm</guid>  
+      <pubDate>Thu, 03 Mar 2011 11:51:21 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Macedonia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1067125.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1067125.stm</guid>  
+      <pubDate>Thu, 03 Mar 2011 12:11:06 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Malta</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1045691.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1045691.stm</guid>  
+      <pubDate>Thu, 03 Mar 2011 12:33:31 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Moldova</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3038982.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3038982.stm</guid>  
+      <pubDate>Thu, 20 Jan 2011 12:37:24 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Monaco</title>  
+      <description>An overview of Monaco including key facts, political leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/2530481.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/2530481.stm</guid>  
+      <pubDate>Thu, 03 Mar 2011 12:23:19 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Montenegro</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/5033274.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/5033274.stm</guid>  
+      <pubDate>Thu, 30 Dec 2010 15:10:30 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Netherlands</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1043423.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1043423.stm</guid>  
+      <pubDate>Thu, 04 Nov 2010 15:29:56 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Norway</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1023276.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1023276.stm</guid>  
+      <pubDate>Mon, 18 Oct 2010 13:29:35 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Poland</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1054681.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1054681.stm</guid>  
+      <pubDate>Wed, 12 Jan 2011 11:22:54 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Portugal</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/994099.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/994099.stm</guid>  
+      <pubDate>Fri, 25 Mar 2011 20:06:21 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Romania</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1057466.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1057466.stm</guid>  
+      <pubDate>Wed, 16 Feb 2011 11:54:55 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Russia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1102275.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1102275.stm</guid>  
+      <pubDate>Tue, 29 Mar 2011 10:40:22 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>San Marino</title>  
+      <description>An overview of San Marino including key facts, political leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/2669927.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/2669927.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 10:18:18 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Serbia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/5050584.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/5050584.stm</guid>  
+      <pubDate>Wed, 16 Mar 2011 10:38:14 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Slovakia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1108491.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1108491.stm</guid>  
+      <pubDate>Wed, 09 Mar 2011 15:46:48 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Slovenia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1097296.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1097296.stm</guid>  
+      <pubDate>Wed, 09 Mar 2011 15:33:15 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Spain</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/991960.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/991960.stm</guid>  
+      <pubDate>Sat, 09 Oct 2010 18:56:44 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Sweden</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1021823.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1021823.stm</guid>  
+      <pubDate>Tue, 14 Dec 2010 11:54:18 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Switzerland</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1035212.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1035212.stm</guid>  
+      <pubDate>Fri, 31 Dec 2010 10:39:48 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Turkey</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1022222.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1022222.stm</guid>  
+      <pubDate>Thu, 17 Feb 2011 17:50:27 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Ukraine</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1102303.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1102303.stm</guid>  
+      <pubDate>Tue, 29 Mar 2011 11:04:38 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>United Kingdom</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1038758.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1038758.stm</guid>  
+      <pubDate>Fri, 22 Oct 2010 15:32:28 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Vatican</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1066140.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1066140.stm</guid>  
+      <pubDate>Wed, 09 Mar 2011 15:48:19 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Abkhazia</title>  
+      <description>An overview of Abkhazia including key facts, political leaders and notes on the media.</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/3261059.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/3261059.stm</guid>  
+      <pubDate>Tue, 08 Feb 2011 10:22:37 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Ajaria</title>  
+      <description>An overview of Ajaria including key facts, political leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3520322.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3520322.stm</guid>  
+      <pubDate>Tue, 08 Feb 2011 10:22:08 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Ceuta, Melilla</title>  
+      <description>A profile of the Spanish north African enclaves of Ceuta and Melilla</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/4209538.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/4209538.stm</guid>  
+      <pubDate>Wed, 06 Oct 2010 14:48:42 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Channel Islands</title>  
+      <description>An overview of the Channel Islands including key facts, political leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/7515502.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/7515502.stm</guid>  
+      <pubDate>Mon, 14 Jun 2010 14:46:56 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Chechnya</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/2565049.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/2565049.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 13:59:14 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Corsica</title>  
+      <description>An overview of Corsica including key facts and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3028038.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3028038.stm</guid>  
+      <pubDate>Sat, 11 Dec 2010 14:16:23 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Crimea</title>  
+      <description>Key facts, dates, events</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/6080890.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/6080890.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 17:08:16 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Dagestan</title>  
+      <description>Key facts, dates and events</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3659904.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3659904.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 15:07:43 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Faroe Islands</title>  
+      <description>An overview of the Faroe Islands including key facts, political leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3434335.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3434335.stm</guid>  
+      <pubDate>Wed, 09 Jun 2010 13:59:08 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Gibraltar</title>  
+      <description>An overview of Gibraltar including key facts, political leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3851047.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3851047.stm</guid>  
+      <pubDate>Thu, 20 Jan 2011 16:58:50 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Greenland</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/1023393.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/1023393.stm</guid>  
+      <pubDate>Wed, 08 Dec 2010 17:16:16 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Ingushetia</title>  
+      <description>Key facts, figures and dates</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3829691.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3829691.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 11:50:54 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Isle of Man</title>  
+      <description>An overview of the Isle of Man including key facts, political leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/7515569.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/7515569.stm</guid>  
+      <pubDate>Thu, 20 Jan 2011 17:13:17 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Kabardino-Balkaria</title>  
+      <description>A profile of the southern Russian republic</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/4338292.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/4338292.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 14:36:01 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Kaliningrad</title>  
+      <description>Key facts, dates, events</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/6177003.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/6177003.stm</guid>  
+      <pubDate>Thu, 20 Jan 2011 16:19:43 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Kalmykia</title>  
+      <description>Key facts, dates and events</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/4580467.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/4580467.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 16:50:10 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Karachay-Cherkessia</title>  
+      <description>Key facts, dates, events</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/5381570.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/5381570.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 16:08:06 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Kosovo</title>  
+      <description>An overview of Kosovo including key facts, leaders and notes on the media</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3524092.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3524092.stm</guid>  
+      <pubDate>Wed, 16 Mar 2011 10:50:17 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Nagorno-Karabakh</title>  
+      <description>Key facts,dates and events</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3658938.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3658938.stm</guid>  
+      <pubDate>Thu, 20 Jan 2011 15:52:58 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>North Ossetia</title>  
+      <description>Key facts, dates and events</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3621698.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3621698.stm</guid>  
+      <pubDate>Wed, 19 Jan 2011 10:45:33 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>South Ossetia</title>  
+      <description>An overview of South Ossetia, including key facts and political leaders</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3797729.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3797729.stm</guid>  
+      <pubDate>Tue, 08 Feb 2011 11:33:24 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Trans-Dniester</title>  
+      <description>An overview of the breakaway region in eastern Moldova</description>  
+      <link>http://news.bbc.co.uk/go/rss/int/news/-/1/hi/world/europe/country_profiles/3641826.stm</link>  
+      <guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/europe/country_profiles/3641826.stm</guid>  
+      <pubDate>Thu, 20 Jan 2011 10:35:57 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>VIDEO: Actress Lyudmila Gurchenko mourned</title>  
+      <description>Actress Lyudmila Gurchenko, described as ''Russia's Elizabeth Taylor'', has died at the age of 75.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12929573</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/entertainment-arts-12929573</guid>  
+      <pubDate>Fri, 01 Apr 2011 01:51:18 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954353_russia_act.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954351_russia_act.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: 'Message in a bottle' answered in Russia</title>  
+      <description>A German boy who tossed a message in a bottle off a ship in the Baltic Sea some 24 years ago has now received an answer.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12930268</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12930268</guid>  
+      <pubDate>Fri, 01 Apr 2011 05:42:42 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954526_bottle.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954524_bottle.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Migrants to be moved from Lampedusa</title>  
+      <description>The unrest in North Africa has seen thousands of migrants from Libya and Tunisia flee to Lampedusa, an Italian island in the Mediterranean.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12930210</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12930210</guid>  
+      <pubDate>Fri, 01 Apr 2011 05:26:25 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954658_lamp.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51954000/jpg/_51954656_lamp.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Spain investigates baby trade claims</title>  
+      <description>Spanish prosecutors launch nationwide investigation into claims of an illicit trade in newborn babies</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-12912120</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-12912120</guid>  
+      <pubDate>Wed, 30 Mar 2011 19:27:05 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51933000/jpg/_51933652_baby.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51933000/jpg/_51933654_baby.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Irish banks need extra 24bn euros</title>  
+      <description>The Republic of Ireland's banks need an extra 24bn euros (£21.2bn) to survive the financial crisis.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12927467</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12927467</guid>  
+      <pubDate>Thu, 31 Mar 2011 18:26:18 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51952000/jpg/_51952205_jex_1005179_de25-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51952000/jpg/_51952203_jex_1005179_de25-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Stars turn out for Gorbachev event</title>  
+      <description>Former Soviet leader Mikhail Gorbachev is being honoured at a spectacular concert at the Royal Albert Hall in London to celebrate his 80th birthday.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/uk-12914474</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-12914474</guid>  
+      <pubDate>Wed, 30 Mar 2011 21:10:16 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51934000/jpg/_51934667_jex_1003960_de27-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51934000/jpg/_51934678_jex_1003993_de27-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: 'Cockleshell hero' on his WWII mission</title>  
+      <description>As a memorial is unveiled to the commandos of the "Cockleshell" raid in 1942, veteran Norman Colley reflects on the mission</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/uk-12904644</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-12904644</guid>  
+      <pubDate>Thu, 31 Mar 2011 06:43:02 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51918000/jpg/_51918109_jex_1003152_de30-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51946000/jpg/_51946600_jex_1004838_de27-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Macedonia: What's in a name?</title>  
+      <description>For almost two decades, Macedonia has been locked in a row with Greece over its name.</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12901792</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12901792</guid>  
+      <pubDate>Tue, 29 Mar 2011 22:49:38 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51916000/jpg/_51916287_jex_1002891_de54-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51916000/jpg/_51916236_jex_1002891_de54-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Grand strategy</title>  
+      <description>German football is united on its long-term goals</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/business-12923236</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/business-12923236</guid>  
+      <pubDate>Thu, 31 Mar 2011 23:10:41 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51951000/jpg/_51951850_grmanybigindex_getty336.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51951000/jpg/_51951852_grmanybigindex_getty336.jpg"/> 
+    </item>  
+    <item> 
+      <title>Embracing 3D</title>  
+      <description>Ballet and opera experiment with three-dimensional cinema</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12891882</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/entertainment-arts-12891882</guid>  
+      <pubDate>Thu, 31 Mar 2011 07:53:21 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51885000/jpg/_51885526_giselle_osipova.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51884000/jpg/_51884794_giselle_osipova.jpg"/> 
+    </item>  
+    <item> 
+      <title>Bordeaux bravery</title>  
+      <description>Memorial marks secret mission of WWII 'Cockleshell heroes'</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/uk-12914628</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/uk-12914628</guid>  
+      <pubDate>Thu, 31 Mar 2011 14:24:33 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51942000/jpg/_51942076_51918104.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51918000/jpg/_51918107_51918106.jpg"/> 
+    </item>  
+    <item> 
+      <title>Spanish tragedy</title>  
+      <description>The babies taken from their parents and never seen again</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12886441</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12886441</guid>  
+      <pubDate>Thu, 31 Mar 2011 00:48:06 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51879000/jpg/_51879648_antonio4.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51898000/jpg/_51898000_anayounger.jpg"/> 
+    </item>  
+    <item> 
+      <title>Scorpions and Spice</title>  
+      <description>Eclectic guests at London gala to honour Gorbachev</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-europe-12916588</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-12916588</guid>  
+      <pubDate>Thu, 31 Mar 2011 02:38:09 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51935000/jpg/_51935880_011658035-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51935000/jpg/_51935876_011658035-1.jpg"/> 
+    </item>  
+    <item> 
+      <title>Pippi's legacy</title>  
+      <description>Fans on plans to send Sweden's literary darling to Hollywood</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/entertainment-arts-12908579</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/entertainment-arts-12908579</guid>  
+      <pubDate>Thu, 31 Mar 2011 08:03:01 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51929000/jpg/_51929273_nilsson_getty.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51929000/jpg/_51929274_nilsson_getty.jpg"/> 
+    </item>  
+    <item> 
+      <title>Testing times</title>  
+      <description>Turkey's foreign minister reflects on Libya policy</description>  
+      <link>http://www.bbc.co.uk/go/rss/int/news/-/news/world-africa-12897878</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-africa-12897878</guid>  
+      <pubDate>Tue, 29 Mar 2011 14:39:33 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://news.bbcimg.co.uk/media/images/51898000/jpg/_51898738_011645065-1.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://news.bbcimg.co.uk/media/images/51898000/jpg/_51898084_011645065-1.jpg"/> 
+    </item> 
+  </channel> 
+</rss>

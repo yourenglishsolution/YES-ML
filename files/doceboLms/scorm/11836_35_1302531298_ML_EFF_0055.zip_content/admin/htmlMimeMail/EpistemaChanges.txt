@@ -1,0 +1,12 @@
+Changements sur htmlMimeMail
+
+* URL d'origine : http://www.phpguru.org/static/mime.mail.html
+* Version téléchargée 2.5.1 (le 28/10/2005)
+* licence : sans licence ?
+
+Changements : 
+
+Changed function setHtml to include optional path arguments, so that images can be found when used with absolute or relative paths.
+
+
+

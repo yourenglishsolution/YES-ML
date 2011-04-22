@@ -1,0 +1,78 @@
+/*
+
+SKIN NAME = docebo
+
+*/
+
+iframe {position: absolute; left: 0px; top: 0px; bottom: 0px; right: 0px; width: 100%; height: 100%;}
+*:focus {outline: none;}
+html {height: 100%; width: 100%; background: transparent; overflow: hidden;}
+body {background: #383e42; overflow-y: scroll; font: 20px 'Droid Sans'; position: relative; width: 100%; height: 100%;}
+/*#core {background: url(../_images/img_chair.png) 90% 100% no-repeat fixed; width: 100%; min-height: 100%; height: 100%; position: absolute; top:0; left:0; z-index: -100;}*/
+	#iframe {width: 100%; height: 48px; position: fixed; top: 0px; left: 0px; z-index: 20;}
+		#iframe_c {width: 100%; 	height: 48px; background: url(../_images/bg_iframe_c.png) 0 0 repeat-x; 	float: left; font: 20px 'Droid Sans'; text-shadow: 0px 1px 0px #5881a6; color: white;}
+			#iframe_c_l {float: left; line-height: 48px; margin-left: 43px;}
+			#iframe_c_r {float: right;  line-height: 48px; margin-right: 43px;}
+	#cntrls {width: 860px; height: 214px; position: fixed; left: 0px; top: 18px; background-color: #383e42; z-index: 20;}
+		#cntrls_c {width: 823px; height: 149px; margin: 65px 0 0 37px;}
+			#cntrls_dcrs {height: 53px; border-bottom: 1px solid #f97a7a; background: url(../_images/bg_decors.png) 0 0 repeat-x;}
+			#cntrls_btns {height: 95px; background-color: #EEF1F6;}
+			#cntrls_btns select {width: 250px; height: 30px; float: left; margin: 35px 0 0 64px; font: 14px 'Droid Sans' !important;}
+				#see_corrections_button {display: block; width: 160px; height: 24px; margin: 0 auto; padding-top: 37px;}
+				#prev 	{display: block; width: 71px; height: 24px; float: left; margin: 35px 0 0 211px; background: url(../_images/pag_prec.png) 0 0 no-repeat;}
+				#next		{display: block; width: 100px; height: 24px; float: left; margin: 35px 0 0 0;  background: url(../_images/pag_prec.png) -71px 0 no-repeat;}
+				#btn_start {width: 100%; height: 24px; padding-top: 37px;}
+					#Start	{display: block; width: 100px; height: 24px; margin: 0 auto;}
+					#start	{display: block; width: 100px; height: 24px; margin: 0 auto;}
+				#restartquizz_button {display: block; width: 100px; height: 24px; float: left; margin: 35px 0 0 151px;}
+	/*#lssn {width: 743px; _width: 823px; height: auto; min-height: 350px; margin: 262px 0 0 37px; _margin: -1 0 0 37px; background: url(../_images/bg_lssn.png) 0 0 repeat; overflow: hidden; z-index: 12; padding: 40px; position: relative;}*/
+	#lssn {width: 743px; _width: 823px; height: auto; min-height:  20px;  margin: 0 0 0 0; _margin: 0 0 0 0px; /*background: url(../_images/bg_lssn.png) 0 0 repeat;*/ background: white; overflow: auto; overflow-x: hidden; z-index: 12; padding: 40px; position: absolute; /*top:214px;*/ top:232px; left: 37px;}
+	#intro {width: 743px; _width: 823px; height: auto; min-height: 20px;  margin: 0 0 0 0; _margin: 0 0 0 0px; /*background: url(../_images/bg_lssn.png) 0 0 repeat;*/ background: white; overflow: auto; overflow-x: hidden; z-index: 12; padding: 40px; position: absolute; /*top:206px;*/ top: 224px; left: 37px;}
+/**+html #intro {top: 199px; left: 27px;}	*/
+		.intro_title {font-size: 25px; text-transform: uppercase; font-weight: 700; font-family: 'Droid Sans'; line-height: 33px; margin-bottom: 20px;}
+		.txt 		{margin-bottom: 20px; font: 15px 'Droid Serif'; line-height: 25px;}
+		.nswr 	{margin-bottom: 20px; font: 20px 'Droid Sans';}
+		.crrctn {margin-bottom: 20px; font: 20px 'Droid Sans';}
+		.cmmnt 	{margin-bottom: 20px; font: 20px 'Droid Sans';}
+		.question_test {font: 17px 'Droid Serif';}
+		.Question_text sup {font-size: 20px;}
+	#rslt {width: 743px; _width: 823px; height: auto; min-height: 20px; margin: 0 0 0 0; _margin: 0 0 0 0px; /*background: url(../_images/bg_lssn.png) 0 0 repeat;*/ background: white; overflow: auto; overflow-x: hidden; z-index: 12; padding: 40px; position: absolute; /*top:214px;*/ top:232px; left: 37px;}
+		.TOC_Content {color: black; font: 20px 'Droid Sans';}
+		.ScoreHead {font: 20px 'Droid Serif'; font-weight: 700; line-height: 30px; height: 40px;}
+		.ScoreQuestionRow {font: 12px 'Droid Sans' !important; text-decoration: none !important;}
+		.ScoreQuestionRow .TOC_Content { font: 12px 'Droid Sans' !important; text-decoration: underline;}
+		.ScoreQuestionRow .TOC_Content:hover {color: #74A9DB;}
+		.ScoreQuestionRow .TOC_Content:visited {color: #555;}
+		.ScoreSubTotal {font: 17px 'Droid Sans';}
+		.ScoreTotal {font: 17px 'Droid Sans'; font-weight: 700; padding-top: 10px;}
+		.Question_text {font: 15px 'Droid Serif' !important; line-height: 25px !important;}
+		.Question_answers {font: 17px 'Droid Sans'; line-height: 24px; padding-top: 5px;}
+		.Question_answers.ProcessInlineImages {padding-top: 3px;}
+		.Question_answers.ProcessInlineImages {padding-top: 5px\9; }
+			.AnswerRow1,
+			.AnswerRow0 {height: 25px;}
+		input[type="radio"],
+		input[type="checkbox"] {margin-bottom: 5px;}
+
+		table.Correction td.Correction table {margin-bottom: 50px;}
+		table.Correction td.Correction p[align="right"] {margin-top:50px;}
+
+#copyright {position: absolute; left: 0; bottom: -15px; color: #666;}
+
+td.Correction p span {font-size: 15px;}
+td.Correction p span.answerkey {font-size: 17px;}
+td.ProcessInlineImages {font: 15px 'Droid Serif';}
+
+tr.AnswerRow0 td.Question_answers table tbody tr td {font-size: 12px; text-align: left;}
+tr.AnswerRow1 td.Question_answers table tbody tr td {font-size: 12px; text-align: left;}
+
+/*DRAG'N'DROP*/
+td.dragOverOff  { background: #fff url(../_images/question_mark.png) no-repeat center; border: solid 1px #ccc; height:100px; width:100px;}
+td.dragOverOn   { background: #ccc !important; height: 100px; width:100px; border: solid 1px #ccc; }
+td.dragOverSet  { background-color: #FFF; height: 100px; width:105px; padding: 2px}
+table.draggableTable { background-color: #FFF; height: 100px; width:100px; border: 0px solid black !important; margin: 1px; font-size: 12px;}
+table.draggableTable table {font-size: 12px; text-align: left;}
+td.basket         { background-color: transparent !important; height: 100px; width:100px; font-size: 12px; text-align: left;}
+
+
+

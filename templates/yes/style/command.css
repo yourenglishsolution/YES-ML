@@ -1,0 +1,9 @@
+table.command { border:none; border-collapse:collapse; width:80%; margin:30px auto; }
+table.command td { border:1px solid #000; }
+table.command tr.header td { border:none; }
+table.command tr.header td.label { border:1px solid #000; text-align:center; }
+table.command td.label { border:1px solid #000; font-size:13px; text-align:left; padding:5px 10px; font-weight:bold; }
+table.command td.content { padding:5px; text-align:center; }
+table.command tr.total { font-weight:bold; }
+table.command td.none { border:none; color:#ADB8BF; font-size:13px; }
+table.command .payment { padding:10px 5px; text-align:center; }

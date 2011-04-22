@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title><?php echo Layout::title(); ?></title>
+		
+		<?php echo Layout::zone('meta'); ?>
+		<?php echo Layout::accessibility(); ?>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="fr" />
+		
+		<link rel="stylesheet" type="text/css" href="<?php echo Layout::path(); ?>/style/reset.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo Layout::path(); ?>/style/styles.css" />
+		
+		<!-- MOOTOOLS -->
+		<script type="text/javascript" src="<?php echo Layout::path(); ?>/js/mootools.js" /></script>
+		<script type="text/javascript" src="<?php echo Layout::path(); ?>/js/mootools-more.js" /></script>
+		<script type="text/javascript" src="<?php echo Layout::path(); ?>/js/yesPopup.js" /></script>
+		<script type="text/javascript" src="<?php echo Get::rel_path('base'); ?>/lib/js_utils.js"></script>
+		
+		<?php echo Layout::zone('page_head'); ?>
+		<?php echo Layout::rtl(); ?>
+		
+		<script type="text/javascript">
+			// Pour la gestion des "exercices à faire" / "exercices terminés"
+			var tabView = new YAHOO.widget.TabView();
+			
+			// Mise à jour des Event sur les liens "besoin d'aide" des blocks
+			function refresh()
+			{
+				var helpPopup = new yesPopup($$('.ajaxPopup'));
+				var waitPopup = new yesPopup($$('.waitPopup'), { popupClass:'popupWait' });
+			}
+			
+			// Modifie le underline du label cliqué
+			function toogleMenu(clickLabel)
+			{
+				if(clickLabel == 'todo')
+				{
+					$$('.todo a').getLast().setStyle('textDecoration', 'underline');
+					$$('.finish a').getLast().setStyle('textDecoration', 'none');
+				}
+				else
+				{
+					$$('.todo a').getLast().setStyle('textDecoration', 'none');
+					$$('.finish a').getLast().setStyle('textDecoration', 'underline');
+				}
+			}
+			
+			window.addEvent('domready', function()
+			{
+				// Popup de contenu
+				var contentPopup = new yesPopup($$('.contentPopup'), { popupClass:'popupContent' });
+				
+				// Evènements sur le click des labels
+				$$('.todo a, .finish a').each(function(item, index)
+				{
+					item.addEvent('click', function()
+					{
+						var span = this.getParent();
+						toogleMenu(span.getProperty('class'));
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<?php echo Layout::zone('menu_over'); ?>
+		<div class="contener" id="<? echo $GLOBALS['modname']; ?>">
+			<div class="header">
+				<h1><span></span></h1>
+				<a class="lang" href="index.php?modname=login&amp;op=logout"> 
+					<div class="logout" >
+						<?php echo Lang::t('_LOGOUT', 'standard'); ?>
+					</div>
+				</a>
+				<div id="test" class="welcome">
+					Welcome <?php echo ucfirst(Docebo::user()->getUserName()); ?>
+				</div>
+				<?/*<div class="lang">
+					<span class="select-language"><?php echo Layout::change_lang(); ?></span>
+					<!--<img src="./images/flag_fr.png" alt="" /> Francais-->
+				</div>*/?>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="menu">
+				<ul>
+					<li class="block"><a href="index.php?modname=course_autoregistration&op=course_autoregistration&sop=unregistercourse">Activation (todo)</a></li>
+					<li><a href="#">Parcours YES (todo)</a></li>
+					<li><a href="#">Catalogue (todo)</a></li>
+					<li><a class="contentPopup" href="index.php?modname=pages&op=account">Mon compte (todo)</a></li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="content">
+				<div class="left">
+					<div class="left_c">
+						<?php echo Layout::zone('content'); ?>
+					</div>
+				</div>
+				<? require($GLOBALS['where_lms'].'/../templates/yes/layout/rss.php'); ?>
+				<div class="clear"></div>
+			</div>
+			
+			<div class="footer">
+				Copyright &copy; 2011 YES SAS All rights reserved.
+			</div>
+		</div>
+		
+		<!-- scripts -->
+		<?php echo Layout::zone('scripts'); ?>
+		<!-- debug -->
+		<?php echo Layout::zone('debug'); ?>
+		<!-- def_lang -->
+		<?php echo Layout::zone('def_lang'); ?>
+		<?php echo Layout::analytics(); ?>
+	</body>
+</html>

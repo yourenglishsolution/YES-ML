@@ -1,0 +1,32 @@
+/**
+ * Default CSS included in all questionnaires
+ *
+ * @package Easyquizz Pro
+ * 
+ * @author Epistema {@link http://www.epistema.com}
+ * @copyright Copyright 2001 - 2007, Epistema
+ */
+
+body { font-family: Verdana, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif; }
+
+td { font-size: 11px; }
+th { font-size: 11px; }
+h1 { font-size: 18px; font-weight: bold; }
+h2 { font-size: 14px; font-weight: bold; }
+
+.question_howto { font-size: 10px;}
+
+/* Drag'n'drop */
+td.dragOverOn  { background: yellow url(dd_background_over.gif) no-repeat center }
+td.dragOverOff { background: white  url(dd_background.gif) no-repeat center }
+td.dragOverSet { background-color: #EEEEEE; }
+.draggableTable {margin: 2px; padding: 1px; background-color: white; border: solid 1px black; }
+.basket { background-color: #EEEEEE;}
+
+/* Table of content */
+div.EasyquizzToc { }
+div.EasyquizzToc h1 { font-size: 14px; font-weight: bold; margin-bottom: 0; }
+div.EasyquizzToc p  { font-size: 12px; margin: 0; padding: 0 }
+div.EasyquizzToc blockquote  { margin-top: 0; padding-top: 0 }
+
+tr.row_hover td { background-color: #DDDDDD; cursor: pointer; }

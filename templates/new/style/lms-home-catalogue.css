@@ -1,0 +1,9 @@
+/*
+DOCEBO - The E-Learning Suite
+http://www.docebo.com
+license: http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+*/
+.header,
+.content,
+.footer,
+.webcontent{position:relative;width:98%;margin:0 auto;padding:0;}
