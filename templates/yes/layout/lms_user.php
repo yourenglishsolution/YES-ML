@@ -32,6 +32,7 @@
 			{
 				// Popup des pages de contenu
 				var contentPopup = new yesPopup('.contentPopup', { popupClass:'popupContent' });
+				var supportPopup = new yesPopup('.supportPopup', { popupClass:'popupSupport' });
 			});
 		</script>
 	</head>
@@ -66,6 +67,7 @@
 					<li><a class="<?=($action == 'elearning/show' || $action == '' ? 'activ' : '')?>" href="index.php?r=elearning/show&sop=unregistercourse">Parcours YES</a></li>
 					<li><a class="<?=($action == 'elearning/catalogue' ? 'activ' : '')?>" href="index.php?r=elearning/catalogue">Catalogue</a></li>
 					<li><a class="contentPopup" href="index.php?modname=pages&op=account">Mon compte</a></li>
+					<li><a class="supportPopup" href="index.php?modname=pages&op=support">Support</a></li>
 				</ul>
 			</div>
 			
