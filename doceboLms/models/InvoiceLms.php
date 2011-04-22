@@ -41,7 +41,7 @@ class InvoiceLms extends Model
 	    }
 	    
 	    // On insère la facture
-	    $sql = "INSERT INTO invoice (command_id, client, address_street, address_city, address_zip, address_country, amount_ht, tva_rate, amount_tva, amount_ttc, crea) VALUES ('$command_id', '".$user->lastname." ".$user->firstname."', '".$userInfos['address_street']."', '".$userInfos['address_city']."', '".$userInfos['address_zip']."', '".$userInfos['address_country']."', ".$command->amount_ht."', '".$command->tva_rate."', '".$command->amount_tva."', '".$command->amount_ttc."', UNIX_TIMESTAMP())";
+	    $sql = "INSERT INTO invoice (command_id, client, address_street, address_city, address_zip, address_country, amount_ht, tva_rate, amount_tva, amount_ttc, crea) VALUES ('$command_id', '".$user->lastname." ".$user->firstname."', '".$userInfos['address_street']."', '".$userInfos['address_city']."', '".$userInfos['address_zip']."', '".$userInfos['address_country']."', '".$command->amount_ht."', '".$command->tva_rate."', '".$command->amount_tva."', '".$command->amount_ttc."', UNIX_TIMESTAMP())";
 		$this->db->query($sql);
 		$invoice_id = mysql_insert_id();
 		
