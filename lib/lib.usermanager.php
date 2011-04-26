@@ -2051,6 +2051,7 @@ class UserManagerRenderer {
 		
 		$html .= '</div>';
 
+		/* TODO */
 		$html .=
 			'<div class="lostpwd_box">'."\n"
 			.'<span class="text_bold">'.$lang->def('_LOST_TITLE_PWD').' - </span>'

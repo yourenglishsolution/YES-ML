@@ -105,7 +105,7 @@ class User_API extends API {
 			$user = $this->db->fetch_obj($this->db->query($sql));
 			
 			$template = file_get_contents(_MAILS_TEMPLATE_PATH.'confirm_ident.php');
-			$template = str_replace('%name%', $user->firstname.' '.$user->lastname, $template);
+			$template = str_replace('%name%', stripslashes($user->firstname), $template);
 			$template = str_replace('%login%', str_replace('/', '', $user->userid), $template);
 			$template = utf8_decode($template); // On gère les accents
 			
@@ -232,7 +232,7 @@ class User_API extends API {
 			
 			
 			$template = file_get_contents(_MAILS_TEMPLATE_PATH.'confirm_create.php');
-			$template = str_replace('%name%', $userdata['firstname'].' '.$userdata['lastname'], $template);
+			$template = str_replace('%name%', $userdata['firstname'], $template);
 			$template = str_replace('%login%', $userdata['userid'], $template);
 			$template = str_replace('%password%', $password, $template);
 			$template = utf8_decode($template); // On gère les accents

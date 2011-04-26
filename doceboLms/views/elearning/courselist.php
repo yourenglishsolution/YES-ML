@@ -33,19 +33,21 @@
 
 <div class="block firstBlock">
 	<div class="image_block">
-		<img src="<?php echo Get::tmpl_path(); ?>/style/images/content_pict1.png" alt="" />
+		<img src="<?php echo Get::tmpl_path(); ?>/style/images/content_pict1.png" alt="" width="164" height="166" />
 	</div>
 	<div class="infos">
 		<span class="price">1&euro;/jour</span>
 		<a href="index.php?r=elearning/catalogue" class="button"><span><span><span>Je m’abonne !</span></span></span></a>
 	</div>
 	<div class="desc">
-		<span class="title">Je souhaîte m’abonner au Microlearning YES</span>
+		<span class="title">Je souhaite m’abonner au Microlearning YES</span>
 		<ul>
-			<li>Essential, Efficiency, Autonomy, Expert, une bibliothèque d’exercices à votre niveau.</li>
-			<li>Un entretien d’embauche en perspective ? Vous devez pratiquer !</li>
-			<li>Un voyage dans un pays anglophone ? Pour parer à toute éventualité, 5 minutes par jour.</li>
+			<li>Une bibliothèque d’exercices à votre niveau.</li>
+			<li>Un entretien d’embauche en perspective ?</li>
+			<li>Un voyage dans un pays anglophone ?</li>
 		</ul>
+		<div class="clear"></div>
+		<span class="go"><a href="index.php?r=elearning/catalogue">Pratiquez l'anglais 3 minutes par jour !</a></span>
 	</div>
 	<div class="clear"></div>
 </div>

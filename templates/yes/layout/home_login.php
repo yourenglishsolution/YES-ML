@@ -34,7 +34,7 @@
 			</div>
 			<div class="content">
 				<h2>ACCÉDER À MON COMPTE</h2>
-				<p class="acceder">Pour accéder à votre compte YES, entrez votre identifiant et votre mot de passe et démarrez votre cours.</p>
+				<p class="acceder">Pour accéder à votre compte YES Microlearning, veuillez entrez votre identifiant et votre mot de passe.</p>
 				<?php echo LoginLayout::service_msg(); ?>
 				<?php echo LoginLayout::login_form(); ?>
 				<div class="footer_c">

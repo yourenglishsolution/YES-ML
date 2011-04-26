@@ -32,6 +32,9 @@ a.activ { text-decoration:underline !important; }
 .right p { margin:10px 5px; }
 .right h3 { margin-top:5px; font-weight:bold; }
 
+.go { display:block; margin-top:10px; }
+.go a { margin-left:30px; font-size:14px; color:#000; text-decoration:underline; }
+
 .content { margin-top:30px; overflow:hidden; min-height: 500px;}
 .content .top { padding:10px 0 0 13px; /*float:left;*/ background:url(./images/content_bordertop.png) repeat-x transparent; height:38px; width:auto;}
 .content .topleft { float:left; background:url(./images/content_bordertopleft.png) no-repeat transparent; width:12px; height:48px; }

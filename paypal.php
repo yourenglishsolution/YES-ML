@@ -13,7 +13,7 @@ Boot::init(BOOT_USER);
 
 include_once(_lms_."/models/CommandLms.php");
 include_once(_lms_.'/class/class.phpmailer.php');
-
+					
 if(isset($_GET['op']))
 {
 	// Si on arrive ici c'est que le traitement doit se faire ($_GET['op'] == ok)
@@ -71,7 +71,7 @@ if(isset($_GET['op']))
 					$user = $mCommand->getUser($command->command_id);
 					
 					$template = file_get_contents(_MAILS_TEMPLATE_PATH.'confirm_command.php');
-					$template = str_replace('%name%', $user->firstname.' '.$user->lastname, $template);
+					$template = str_replace('%name%', $user->firstname, $template);
 					$template = utf8_decode($template); // On gère les accents
 					
 					$mail = new PHPMailer(); // On active les exceptions
