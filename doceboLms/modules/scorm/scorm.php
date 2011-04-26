@@ -258,6 +258,45 @@ function additem($object_item) {
 												"CLEAN" ) );
 	$GLOBALS['page']->add( $form->closeButtonSpace() );
 	$GLOBALS['page']->add( $form->closeForm().'</div>' );
+	
+	/**********************************
+	 * 
+	 * YES SAS - Your English Solution
+	 * Author : Polo
+	 * Created Date : 04/04/11
+	 * Modified Date : 04/04/11
+	 * Version : 1.0
+	 * Function : Ajouter un formulaire
+	 * Description : Bouton d'ajout des course à certains users
+	 * 
+	 **********************************/
+	$form = new Form();
+	
+	$GLOBALS['page']->add( 	
+				'<div class="std_block">'
+				.getBackUi( Util::str_replace_once('&', '&amp;', $object_item->back_url).'&amp;create_result=0', 
+							$lang->getLangText('_BACK_TOLIST' ))							
+			);
+	
+	$GLOBALS['page']->add( Form::getFormHeader($lang->def('_SCORM_ADD_FORM') ) );
+	
+	$GLOBALS['page']->add( 
+				$form->openForm("scormform", 
+								"index.php?modname=scorm&amp;op=joinitems", 
+								false, 
+								false, 
+								false)
+			);
+	$GLOBALS['page']->add( $form->openElementSpace() );
+	
+	$GLOBALS['page']->add( $form->getHidden("back_url","back_url",htmlentities(urlencode($object_item->back_url))) );
+	$GLOBALS['page']->add( $form->closeElementSpace() );
+	$GLOBALS['page']->add( $form->openButtonSpace() );
+	$GLOBALS['page']->add( $form->getButton( 	"scorm_add_submit", 
+												"scorm_add_submit", 
+												"USERS" ) );
+	$GLOBALS['page']->add( $form->closeButtonSpace() );
+	$GLOBALS['page']->add( $form->closeForm().'</div>' );
 }
  
 function insitem() {
@@ -856,41 +895,77 @@ function createcontent()
 
 function cleanitems()
 {
-		$model = new CourseAlms();
-		
-		$courses = sql_query("SELECT idCourse FROM %lms_course");
-		while($row = mysql_fetch_object($courses))
-		{
-			$model->delCourse($row->idCourse);
-		}
-		
-		$items = sql_query("SELECT idscorm_organization, idscorm_package FROM ".$GLOBALS['prefix_lms']."_scorm_organizations");
-		while($row = sql_fetch_object($items))
-		{
-			_scorm_deleteitem($row->idscorm_package, $row->idscorm_organization, true);
-		}
-		
-		$tables = array(
-			'learning_course',
-			'learning_courseuser',
-			'learning_organization',
-			'learning_repo',
-			'learning_scorm_items',
-			'learning_scorm_items_track',
-			'learning_scorm_organizations',
-			'learning_scorm_package',
-			'learning_scorm_resources',
-			'learning_scorm_tracking',
-			'learning_scorm_tracking_history',
-			'learning_test',
-			);
-		
-		foreach($tables as $table)
-		{
-			sql_query("TRUNCATE ".$table);
-		}
-		
-		return true;
+    set_time_limit(0);
+	$model = new CourseAlms();
+	
+	$courses = sql_query("SELECT idCourse FROM %lms_course");
+	while($row = mysql_fetch_object($courses))
+	{
+		$model->delCourse($row->idCourse);
+	}
+	
+	$items = sql_query("SELECT idscorm_organization, idscorm_package FROM ".$GLOBALS['prefix_lms']."_scorm_organizations");
+	while($row = sql_fetch_object($items))
+	{
+		_scorm_deleteitem($row->idscorm_package, $row->idscorm_organization, true);
+	}
+	
+	$tables = array(
+		'learning_course',
+		'learning_courseuser',
+		'learning_organization',
+		'learning_repo',
+		'learning_scorm_items',
+		'learning_scorm_items_track',
+		'learning_scorm_organizations',
+		'learning_scorm_package',
+		'learning_scorm_resources',
+		'learning_scorm_tracking',
+		'learning_scorm_tracking_history',
+		'learning_test',
+		);
+	
+	foreach($tables as $table)
+	{
+		sql_query("TRUNCATE ".$table);
+	}
+	
+	return true;
+}
+
+function joinitems()
+{
+    set_time_limit(0);
+    $users = array('polo', 'test');
+    
+    require_once(_lms_.'/lib/lib.subscribe.php');
+    $subscribe = new CourseSubscribe_Management();
+    
+    foreach($users as $userid)
+    {
+        $sql = "SELECT idst FROM %adm_user WHERE userid LIKE '/".$userid."' LIMIT 1";
+        $row = sql_fetch_object(sql_query($sql));
+        
+        if($row !== false)
+        {
+            $idst = (int) $row->idst;
+            
+            $sql = "SELECT idCourse FROM %lms_course ORDER BY idCourse";
+            $result = sql_query($sql);
+            
+            while($row = sql_fetch_object($result))
+        	{
+        		$query_control = "SELECT COUNT(*) FROM %lms_courseuser WHERE idCourse=".$row->idCourse." AND idUser=".$idst;
+        
+        		list($control) = sql_fetch_row(sql_query($query_control));
+        
+        		if($control == 0)
+        		{
+        			$subscribe->subscribeUser($idst, $row->idCourse, '3');
+        		}
+        	}
+        }
+    }
 }
 
 function infoallitem()
@@ -1165,6 +1240,9 @@ if( isset( $GLOBALS['op'] ) ) {
 		};break;
 		case "synchroallitem" : {
 			synchroallitem();
+		};break;
+		case "joinitems" : {
+			joinitems();
 		};break;
 		case "deleteitem": {
 			deleteitem();

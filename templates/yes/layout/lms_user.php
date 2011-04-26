@@ -87,7 +87,7 @@
 			
 			<div class="footer">
 				Copyright &copy; 2011 YES SAS All rights reserved.
-				- <a href="">CGV</a>
+				- <a href="index.php?r=elearning/cgv">CGV</a>
 				<? if(Docebo::user()->isAdmin()) { ?>- <a href="/doceboCore">Administration</a><? } ?>
 			</div>
 		</div>

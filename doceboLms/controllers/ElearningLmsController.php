@@ -147,6 +147,11 @@ class ElearningLmsController extends LmsController {
 	{
 		$this->render('productcancel', array());
 	}
+	
+	public function cgvTask()
+	{
+		$this->render('cgv', array());
+	}
 
 	public function showTask() {
 /*

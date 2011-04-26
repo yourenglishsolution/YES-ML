@@ -118,6 +118,13 @@ a.activ { text-decoration:underline !important; }
 #elearningcatalogue .left_c { margin-right:40px; min-width:1225px; }
 
 
+/* CGV */
+.cgv { padding:10px; }
+.cgv ul { list-style:none; margin:10px 0; font-size:15px; }
+.cgv ul li {margin:5px 0; }
+.cgv h3 { font-size:17px; font-weight:bold; margin:10px 0; }
+.cgv p { font-size:15px; text-align:justify; margin:10px 0; }
+
 
 /* MASK */
 .mask, .waitMask

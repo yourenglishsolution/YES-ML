@@ -36,7 +36,7 @@ function checkCgv()
 				<td class="none">* Exercice de quelques minutes</td>
 				<td class="none payment">
 				
-					<p><input type="checkbox" id="cgv" value="1" /> J'accepte les <a href="">Conditions Générales de Ventes</a></p>
+					<p><input type="checkbox" id="cgv" value="1" /> J'accepte les <a href="index.php?r=elearning/cgv">Conditions Générales de Ventes</a></p>
 					
 					<form id="paypalForm" action="<?=_PAYPAL_ACCOUNT_URL?>" method="post">
 						<input type="hidden" name="cmd" value="_xclick-subscriptions">
