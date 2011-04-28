@@ -217,7 +217,7 @@ class SOAPLMS {
 					$mail->AddAddress($user->email); // Destinataire
 					$mail->SetFrom('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Expéditeur
 					$mail->AddReplyTo('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Adresse de réponse
-					$mail->Subject = 'YES Microlearning - Plus que 3 cours disponibles';
+					$mail->Subject = 'YES Microlearning - Découvrez les bibliothèques de la YES Store';
 					$mail->MsgHTML($template);
 					$mail->AltBody = strip_tags($template);
 					$mail->Send();

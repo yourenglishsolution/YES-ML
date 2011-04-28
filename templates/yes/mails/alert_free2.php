@@ -1,9 +1,6 @@
 <p>Hello %name%,</p>
-
-<p>Nous espérons que vos premières sessions de YES Microlearning se sont bien passées. Néanmoins, il ne vous reste plus que 3 cours disponibles sur votre interface YES Microlearning.</p>
-<p>Afin de profiter pleinement de notre formation à l'anglais n'hésitez pas à consulter nos offres en accédant à la <a href="http://www.yesmicrolearning.fr/redirect.php?email=%email%&code=%code%">YES Store</a>.</p>
-
-<p>Wishing you a good training</p>
+<p>Vous avez terminé vos 5 leçons offertes par YES pour découvrir notre offre Microlearning. Si vous souhaitez prolonger votre expérience avec YES, n'hésitez pas à consulter nos offres en accédant à la <a href="http://www.yesmicrolearning.fr/redirect.php?email=%email%&code=%code%">YES Store</a>.</p>
+<p>Vous pouvez également revoir vos résultats ainsi que les leçons précédemment réalisées en vous connectant à votre interface <a href="http://www.yourenglishsolution.fr">YES Microlearning</a>.</p>
 <p>The YES Team</p>
 
 <style>

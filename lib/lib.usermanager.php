@@ -1159,9 +1159,9 @@ class UserManagerRenderer {
 							<input class="loginField" type="text" id="loginField" name="login_userid" value="Identifiant" />
 							<input class="passwordField" type="password" id="passwordField" name="login_pwd" value="Mot de passe" />
 						</div>
-						<p class="forget textRight">
-							<a href="index.php?modname=login&op=lostpwd">J’ai oublié mon mot de passe</a>
-						</p>
+						<p class="forget"><a href="index.php?modname=login&op=lostpwd">J’ai oublié mon mot de passe</a></p>
+						<p class="remember"><input type="checkbox" id="remember" name="remember" value="1" /><label for="remember">Se souvenir de moi</label></p>
+						<div class="clear"></div>
 						<p class="textCenter">
 							<button class="button" type="submit" value="Valider">
 								<span><span><span>

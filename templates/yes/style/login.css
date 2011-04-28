@@ -24,13 +24,15 @@ form .loginField { float: left; width:262px; /*margin-right:40px;*/ margin-left:
 form .passwordField { float: right; width:262px; margin-right: 14px; font-family: arial;}
 input:-webkit-autofill {background-color: transparent; background: url(./images/bg_login_input.png) 50% 50% no-repeat !important;}
 
-p.forget { color:#0099FF; font-size:12px; margin:3px 0 5px 325px; text-align: left;}
+p.forget { width:200px; float:right; color:#0099FF; font-size:12px; margin:3px 0 5px 0; text-align:left;}
 p.forget a { color:#0099FF; text-decoration:none; display: block; padding-top: 5px;}
 p.forget a:hover { color:#0099FF; text-decoration:underline; }
 .footer_c { text-align: center; position: absolute; bottom: -30px; width: 300px; left: 50%; margin-left:-150px; font: 12px 'Droid Sans';}
 
 #service_msg { margin:10px 10px 0; font-weight:normal; text-align:center; }
 .login_failed { color:red; }
+
+.remember { font-size:12px; width:300px; margin:0 0 0 30px; padding:5px; }
 
 /* BOUTONS */
 	

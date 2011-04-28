@@ -166,7 +166,6 @@ switch($GLOBALS['op']) {
 	//login control
 	case "confirm" : {
 		if($GLOBALS['modname'] == 'login') {
-
 			require_once(_base_.'/lib/lib.usermanager.php');
 			$manager = new UserManager();
 			$login_data = $manager->getLoginInfo();
@@ -180,6 +179,21 @@ switch($GLOBALS['op']) {
 
 					$acl = new DoceboACL();
 					$acl_man =& $acl->getACLManager();
+				}
+				
+				/**********************************
+    			* 
+    			* YES SAS - Your English Solution
+    			* Author : Polo
+    			* Created Date : 28/04/11
+    			* Modified Date : 28/04/11
+    			* Version : 1.0
+    			* Description : Modification du formulaire
+    			* 
+    			**********************************/
+				if(isset($_POST['remember']))
+				{
+				    // Création du cookie avec cryptage des données
 				}
 
 				$GLOBALS['current_user'] =& DoceboUser::createDoceboUserFromLogin( 	$login_data['userid'],

@@ -6,20 +6,36 @@
 
 <div class="page cgv">
     
-    <p>
+    <h3><a name="top">Informations légales :</a></h3>
+    <div>
     	<ul>
-            <li>Raison sociale : YES - Your English Solution (trouver un nom e-commerce)</li>
-            <li>Statut juridique et capital social : SAS au capital de 200.000 euros</li>
-            <li>Nom et prénom du responsable : Stylianos Antalis</li>
-            <li>Siège social : 1 rue de Gramont 75002 Paris</li>
-            <li>Téléphone : 01 40 15 63 08</li>
-        	<li>E-mail : admin@yourenglishsolution.com</li>
-        	<li>TVA intracommunautaire : FR 62 500 492 210</li>
-        	<li>Siret : 500 492 210 00058</li>
-            <li>Code APE : 8559A</li>
-            <li>Numéro CNIL : 127 49 32</li>
+            <li><b>Raison sociale</b> : YES - Your English Solution (trouver un nom e-commerce)</li>
+            <li><b>Statut juridique et capital social</b> : SAS au capital de 200.000 euros</li>
+            <li><b>Nom et prénom du responsable</b> : Stylianos Antalis</li>
+            <li><b>Siège social</b> : 1 rue de Gramont 75002 Paris</li>
+            <li><b>Téléphone</b> : 01 40 15 63 08</li>
+        	<li><b>E-mail</b> : <a href="mailto:admin@yourenglishsolution.com">admin@yourenglishsolution.com</a></li>
+        	<li><b>TVA intracommunautaire</b> : FR 62 500 492 210</li>
+        	<li><b>Siret</b> : 500 492 210 00058</li>
+            <li><b>Code APE</b> : 8559A</li>
+            <li><b>Numéro CNIL</b> : 127 49 32</li>
         </ul>
-    </p>
+    </div>
+    
+    <h3>Sommaire des CGV :</h3>
+    <ul class="sommaire">
+    	<li><a href="#article1">Article 1 : Définitions</a></li>
+    	<li><a href="#article2">Article 2 : Abonnements, Paiement et conditions de paiement</a></li>
+    	<li><a href="#article3">Article 3 : Conditions de résiliation</a></li>
+    	<li><a href="#article4">Article 4 : Disponibilite</a></li>
+    	<li><a href="#article5">Article 5 : Livraison du service</a></li>
+    	<li><a href="#article6">Article 6 : Licence d’utilisation</a></li>
+    	<li><a href="#article7">Article 7 : Informations confidentielles et protection de la vie privée</a></li>
+    	<li><a href="#article8">Article 8 : Propriété intellectuelle</a></li>
+    	<li><a href="#article9">Article 9 : Garanties - responsabilité limitée</a></li>
+    	<li><a href="#article10">Article 10 : Liens</a></li>
+    	<li><a href="#article11">Article 11 : Dispositions générales</a></li>
+    </ul>
     
     <p>Les conditions générales de vente Particuliers s'appliquent à toutes les ventes réalisées par la société YES - Your English Solution auprès de clients particuliers.</p>
     
@@ -28,8 +44,9 @@
     conditions générales de vente, sans préjudice d’éventuelles
     conditions particulières de vente qui peuvent compléter ou se
     substituer aux présentes.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 1 : Définitions</h3>
+    <h3><a name="article1">Article 1 : Définitions</a></h3>
     <p>"Le Client" désigne une personne physique ou morale qui s'inscrit et/ou s'abonne auprès de
     YES - Your English Solution via les sites internet de YES - Your English
     Solution dans le but d'acquérir des produits et services proposés par
@@ -40,9 +57,10 @@
     d'informations" désigne le tiers fournissant les informations contenues
     dans les services de YES - Your English Solution. "Prix" désigne le
     prix d'achat du produit et service.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 2 : Abonnements, Paiement et conditions de paiement</h3>
-    <p>1. Abonnements L’abonnement au service YES
+    <h3><a name="article2">Article 2 : Abonnements, Paiement et conditions de paiement</a></h3>
+    <p><b>1. Abonnements</b> : L’abonnement au service YES
     Microlearning est disponible sous trois (3) formules : trois (3), six
     (6) et neuf (9) mois. Le Client s’engage sur la période choisie et
     reçoit un nombre précis de vingt (20) leçons par mois. Il est
@@ -52,14 +70,15 @@
     précédente. La réalisation ou non des leçons de la part du Client
     n’altère nullement les conditions de l’abonnement souscrit que sont le
     prix, la durée et le nombre de leçons délivrées par YES - Your
-    English Solution. 2. Prix Les prix de nos produits et services sont
+    English Solution.</p>
+    <p><b>2. Prix</b> : Les prix de nos produits et services sont
     indiqués en euros, toutes taxes comprises. Toutes les commandes, quelle
     que soit leur origine, sont payables en euros. YES - Your English
     Solution se donne le droit de faire évoluer ses prix à tout moment. La
     facturation se fera sur la base des tarifs en vigueur au moment de la
     commande. Toute révision n'est applicable qu'aux Abonnements souscrits
-    postérieurement à l'entrée en vigueur des nouveaux prix. 3. Paiement
-    Les services proposés par YES - Your English Solution sont payants. Le
+    postérieurement à l'entrée en vigueur des nouveaux prix.</p>
+    <p><b>3. Paiement</b> : Les services proposés par YES - Your English Solution sont payants. Le
     règlement des achats s'effectue par cartes bancaires ou par Paypal et
     ce selon la procédure de paiement présentée lors du processus
     d’enregistrement. Le Client s’engage à payer l'intégralité du prix et
@@ -79,40 +98,46 @@
     est convenu que, si le paiement était annulé après l'acceptation de
     la commande, l'Abonnement(s) ainsi souscrit(s) sera également
     annulé(s), sans préjudice de tout recours que pourrait exercer YES -
-    Your English Solution. 4. Sécurisation des paiements Pour toutes ses
+    Your English Solution.</p>
+    <p><b>4. Sécurisation des paiements</b> : Pour toutes ses
     transactions, YES - Your English Solution fait appel à l'opérateur
     Paypal. Il figure parmi les leaders du marché des services de paiement
     en Europe et dans le monde. Ceci est un gage de son expérience et de la
     haute fiabilité de ses solutions. Les données de paiement par Paypal
     sont sécurisées avec un chiffrement SSL par Paypal. YES - Your English
     Solution ne conserve aucun numéro de carte bancaire.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 3 : Conditions de résiliation</h3>
+    <h3><a name="article3">Article 3 : Conditions de résiliation</a></h3>
     <p>Le client peut à tout moment demander la
     résiliation de son abonnement en envoyant un email à l’adresse
-    support@yourenglishsolution.com. Cette annulation entraînera la
+    <a href="mailto:support@yourenglishsolution.com">support@yourenglishsolution.com</a>. Cette annulation entraînera la
     désactivation de son accès personnel à l’interface YES Microlearning.
     L’annulation de la formation n'entraînera aucun remboursement de la
     part de YES - Your English Solution.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 4 : Disponibilite</h3>́
+    <h3><a name="article4">Article 4 : Disponibilite</a></h3>
     <p>Nos offres de produits et services achetables en ligne ainsi que nos prix
     sont valables tant qu'ils sont visibles sur les sites de YES - Your
     English Solution.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 5 : Livraison du service</h3>
+    <h3><a name="article5">Article 5 : Livraison du service</a></h3>
     <p>YES - Your English Solution s’engage à contacter le client par e-mail au maximum 2 jours
     après la passation de commande, afin de lui fournir ses codes d’accès
     pour utiliser l’interface de cours YES Microlearning. Cette interface
     internet lui permettra d’accéder aux leçons de microlearning.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 6 : Licence d’utilisation</h3>
+    <h3><a name="article6">Article 6 : Licence d’utilisation</a></h3>
     <p>YES - Your English Solution concède à chaque
     utilisateur une licence d’accès à son interface d’apprentissage YES
     Microlearning. Cette licence est non cessible, révocable et limitée à
     l’utilisation personnelle du Client.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 7: Informations confidentielles et protection de la vie privée</h3>
+    <h3><a name="article7">Article 7: Informations confidentielles et protection de la vie privée</a></h3>
     <p>Les informations et données concernant le client sont nécessaires à la gestion des
     commande et à nos relations commerciales. Ces informations et données
     sont conservées à des fins de sécurité, afin de respecter les
@@ -124,13 +149,14 @@
     données personnelles le concernant en contactant YES - Your English
     Solution à tout moment s’il a des questions concernant notre politique
     de confidentialité, en envoyant un e-mail à
-    admin@yourenglishsolution.com. Le client s'oblige à n'employer les
+    <a href="mailto:admin@yourenglishsolution.com">admin@yourenglishsolution.com</a>. Le client s'oblige à n'employer les
     informations ainsi obtenues qu'à des fins licites, conformément à la
     législation en vigueur, et à respecter les conditions générales
     ci-énoncées ou toute autre indication donnée dans le cadre des
     présentes conditions générales.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 7 : Propriété intellectuelle</h3>
+    <h3><a name="article8">Article 8 : Propriété intellectuelle</a></h3>
     <p>Tous les contenus sous quelque forme qu’ils se
     présentent (notamment sans que ce soit limitatif texte, images, vidéo,
     et audio) mis à la disposition des Clients, sur quelque support que ce
@@ -139,8 +165,9 @@
     dispositions des présentes conditions générales est constitutive de
     contrefaçon et soumise aux sanctions prévues par le code de la
     Propriété Intellectuelle.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 8 : Garanties - responsabilité limitée</h3>
+    <h3><a name="article9">Article 9 : Garanties - responsabilité limitée</a></h3>
     <p>YES - Your English Solution est assujetti au titre de la
     présente convention à une obligation de moyens. Tout client reste
     pendant la durée de la formation sous sa propre dépendance juridique.
@@ -155,8 +182,9 @@
     English Solution ne peut en aucun cas se substituer à sa motivation
     personnelle en ce qui concerne le temps et l’énergie nécessaires à
     l’apprentissage de l’anglais selon la formule YES Microlearning.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 9 : Liens</h3>
+    <h3><a name="article10">Article 10 : Liens</a></h3>
     <p>YES - Your English Solution ou un tiers peuvent établir un
     lien avec d'autres sites ou sources. YES - Your English Solution ne
     dispose d'aucun moyen pour contrôler ces sites et ces sources et ne
@@ -164,15 +192,18 @@
     la garantit. YES - Your English Solution ne s'approprie pas les contenus
     auxquels ces sites ou sources donnent accès, et exclut toute
     responsabilité et garantie en ce qui concerne ces contenus.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
     
-    <h3>Article 10 : Dispositions générales</h3>
-    <p>1. Modifications et renonciations. YES - Your
+    <h3><a name="article11">Article 11 : Dispositions générales</a></h3>
+    <p><b>1. Modifications et renonciations</b> : YES - Your
     English Solution se réserve le droit de modifier les conditions
     générales de vente. YES - Your English Solution informera le Client
     des modifications par courrier électronique et l'invitera à donner son
-    accord sur les modifications. 2. Cession. Le Client ne pourra céder à
+    accord sur les modifications.</p>
+    <p><b>2. Cession</b> : Le Client ne pourra céder à
     un tiers aucune information fournie dont l'utilisation est réservée à
-    un usage strictement personnel. 3. Droit applicable. Les présentes
+    un usage strictement personnel.</p>
+    <p><b>3. Droit applicable</b> : Les présentes
     conditions générales sont soumises au droit français. Dans
     l’éventualité où l’une quelconque clause du présent contrat serait
     déclarée nulle ou sans effet, de quelque façon et pour quelque motif
@@ -182,21 +213,22 @@
     clause respectant son esprit. Préalablement à toute saisie d’un
     tribunal, il est convenu que les parties s’efforceront d’apporter une
     solution amiable aux difficultés qui seraient susceptibles de survenir
-    dans l’interprétation ou l’exécution des présentes. 4. Juridiction A
-    DÉFAUT D’ACCORD AMIABLE ENTRE LES PARTIES POUR TOUT DIFFÉREND RELATIF
+    dans l’interprétation ou l’exécution des présentes.</p>
+    <p><b>4. Juridiction</b> : A DÉFAUT D’ACCORD AMIABLE ENTRE LES PARTIES POUR TOUT DIFFÉREND RELATIF
     À LA VALIDITÉ, L’INTERPRÉTATION, L’EXÉCUTION OU LA RUPTURE DU
     PRÉSENT CONTRAT, IL EST FAIT EXPRESSÉMENT ATTRIBUTION DE JURIDICTION
     PRÈS LES TRIBUNAUX COMPÉTENTS DE PARIS, NONOBSTANT PLURALITÉ DE
-    DÉFENDEURS OU APPEL EN GARANTIE. 5. Autonomie des clauses du contrat.
-    Dans l'éventualité où l'une quelconque disposition des conditions
+    DÉFENDEURS OU APPEL EN GARANTIE.</p>
+    <p><b>5. Autonomie des clauses du contrat</b> : Dans l'éventualité où l'une quelconque disposition des conditions
     générales serait réputée inapplicable en vertu du droit en vigueur,
     (i) cette disposition sera exclue des conditions générales, (ii) le
     reste des conditions générales sera interprété comme si ladite
     disposition était exclue, (iii) le reste des conditions générales
-    restera applicable. 6. Intégralité de l'accord. Les conditions
+    restera applicable.</p>
+    <p><b>6. Intégralité de l'accord</b> : Les conditions
     générales représentent l'intégralité de l'accord passé entre le
-    client et YES - Your English Solution relatif à l'objet visé. 7. Force
-    majeure. YES - Your English Solution et aucune partie tierce participant
+    client et YES - Your English Solution relatif à l'objet visé.</p>
+    <p><b>7. Force majeure</b> : YES - Your English Solution et aucune partie tierce participant
     à la fourniture du service ne seront tenus responsables en cas de
     défaillance ou de retard dans l'exécution de leurs obligations au
     titre des conditions générales, résultant de causes indépendantes de
@@ -207,9 +239,10 @@
     limites de logiciels ou incapacité d'obtenir des services de
     télécommunication ou mesures gouvernementales, pour autant, toutefois,
     que les parties concernées prennent toutes dispositions raisonnables
-    afin d'atténuer les effets résultant desdites situations. 8- Base de
-    négociation. Le client et YES - Your English Solution reconnaissent et
+    afin d'atténuer les effets résultant desdites situations.</p>
+    <p><b>8. Base de négociation</b> : Le client et YES - Your English Solution reconnaissent et
     conviennent que les exclusions de garantie ainsi que les limitations de
     responsabilité et de recours figurant dans les Conditions générales
     sont tangibles, constituent les bases des Conditions générales.</p>
+    <p class="toplink"><a href="#top">Haut de page &uarr;</a></p>
 </div>

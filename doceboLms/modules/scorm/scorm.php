@@ -665,23 +665,16 @@ function synchroallitem()
 	set_time_limit(0);
 	
 	$corresp = array();
+	$increments = array();
 	
-	// On construit le tableau de correspondance code <=> idCategory
+	// On construit le tableau de correspondance code <=> idCategory + gestion de l'incrément
 	$query = "SELECT idCategory, code FROM %adm_group_category";
 	$result = sql_query($query);
 	while($row = mysql_fetch_object($result))
 	{
 	    $corresp[$row->idCategory] = $row->code;
+	    if(!isset($increments[$row->idCategory])) $increments[$row->idCategory] = 0;
 	}
-	
-	/*$corresp = array(
-		5 => 'BAS',
-		1 => 'ESS',
-		2 => 'EFF',
-		3 => 'AUT',
-		6 => 'PRO',
-		4 => 'EXP'
-		);*/
 	
 	$query = "SELECT * FROM ".$GLOBALS['prefix_lms']."_repo repo WHERE idResource NOT IN (SELECT idResource FROM ".$GLOBALS['prefix_lms']."_organization)";
 	$result = sql_query($query);
@@ -712,7 +705,15 @@ function synchroallitem()
 			{
 				if(stripos($path, $name) !== false)
 				{
+				    // On assigne la catégorie
 					$course_info['idCategory'] = $idCategory;
+					
+					// On assigne le numéro d'incrément
+					if(isset($increments[$idCategory]))
+					{
+					    $increments[$idCategory]++;
+					    $course_info['increment'] = $increments[$idCategory];
+					}
 				}
 			}
 		}
