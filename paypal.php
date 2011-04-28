@@ -1,8 +1,5 @@
 <?php
 
-ini_set('display_errors', 1);
-ini_set('error_reporting', E_ALL);
-
 define("IN_DOCEBO", true);
 define("_deeppath_", '');
 require(dirname(__FILE__).'/base.php');
@@ -13,7 +10,10 @@ Boot::init(BOOT_USER);
 
 include_once(_lms_."/models/CommandLms.php");
 include_once(_lms_.'/class/class.phpmailer.php');
-					
+
+ini_set('display_errors', 1);
+ini_set('error_reporting', E_ALL);
+
 if(isset($_GET['op']))
 {
 	// Si on arrive ici c'est que le traitement doit se faire ($_GET['op'] == ok)
@@ -74,7 +74,7 @@ if(isset($_GET['op']))
 					$template = str_replace('%name%', $user->firstname, $template);
 					$template = utf8_decode($template); // On gère les accents
 					
-					$mail = new PHPMailer(); // On active les exceptions
+					$mail = new PHPMailer();
 					$mail->AddAddress($user->email); // Destinataire
 					$mail->SetFrom('microlearning@yourenglishsolution.fr', 'Microlearning Team'); // Expéditeur
 					$mail->AddReplyTo('microlearning@yourenglishsolution.fr', 'Microlearning Team'); // Adresse de réponse

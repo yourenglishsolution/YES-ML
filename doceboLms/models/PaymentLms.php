@@ -35,6 +35,17 @@ class PaymentLms extends Model
 		return $this->getPayment($payment_id);
 	}
 	
+	public function getInvoice($payment_id)
+	{
+		$result = false;
+		
+	    $payment_id = (int) $payment_id;
+		$sql = "SELECT * FROM invoice WHERE payment_id=".$payment_id;
+		$result = $this->db->fetch_obj($this->db->query($sql));
+		
+		return $result;
+	}
+	
 	public function getPayment($payment_id)
 	{
 	    $result = false;

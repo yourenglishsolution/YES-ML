@@ -34,9 +34,6 @@
 		<div class="abo">
 			<p>
 				<b>#<?=date('d/m/Y', $command->crea)?></b> - <?=$product->title?>
-				<? if($command->paid > 0) { ?>
-				- <a href="../invoice.php?command_id=<?=$command->command_id?>">Imprimer votre facture</a>
-				<? } ?>
 			</p>
 			<div>
 				<h4>Liste des paiements</h4>
@@ -46,6 +43,7 @@
 							<th>N°</th>
 							<th>Date</th>
 							<th>Montant TTC</th>
+							<th>Facture</th>
 						</tr>
 					</thead>
 					<?
@@ -56,6 +54,9 @@
 						<td><?=($key+1)?></td>
 						<td><?=date('d/m/Y \à H:i', $payment->crea)?></td>
 						<td><?=ProductLms::priceFormat($payment->amount_ttc)?>&euro;</td>
+						<td>
+            				<a href="../invoice.php?payment=<?=$payment->payment_id?>">Imprimer votre facture</a>
+						</td>
 					</tr>
 					<? } ?>
 				</table>

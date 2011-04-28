@@ -179,6 +179,37 @@ class SOAPLMS {
 					// L'utilisateur n'a accès qu'à 5 cours ou moins, il est en compte gratuit
 					$template = file_get_contents(_MAILS_TEMPLATE_PATH.'alert_free.php');
 					$template = str_replace('%name%', $user->firstname.' '.$user->lastname, $template);
+					$template = str_replace('%email%', $user->email, $template);
+					$template = str_replace('%code%', $user->pass, $template);
+					$template = utf8_decode($template); // On gère les accents
+					
+					require_once(_lms_.'/class/class.phpmailer.php');
+					$mail = new PHPMailer(); // On active les exceptions
+					$mail->AddAddress($user->email); // Destinataire
+					$mail->SetFrom('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Expéditeur
+					$mail->AddReplyTo('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Adresse de réponse
+					$mail->Subject = 'YES Microlearning - Plus que 3 cours disponibles';
+					$mail->MsgHTML($template);
+					$mail->AltBody = strip_tags($template);
+					$mail->Send();
+				}
+			}
+			elseif(((int) $result->nb) == 5)
+			{
+				// L'utilisateur à fini 5 quizz, on vérifie si il est bien en compte gratuit
+				$sql = "SELECT count(*) as nb FROM ".$GLOBALS['prefix_lms']."_courseuser WHERE idUser=".((int)$idUser);
+				$row = $db->fetch_obj($db->query($sql));
+				
+				if(((int) $row->nb) < 6) // TODO : a revoir pcq c'est pas top...
+				{
+					$sql = "SELECT * FROM %adm_user WHERE idst=".((int)$idUser);
+					$user = $db->fetch_obj($db->query($sql));
+					
+					// L'utilisateur n'a accès qu'à 5 cours ou moins, il est en compte gratuit
+					$template = file_get_contents(_MAILS_TEMPLATE_PATH.'alert_free2.php');
+					$template = str_replace('%name%', $user->firstname.' '.$user->lastname, $template);
+					$template = str_replace('%email%', $user->email, $template);
+					$template = str_replace('%code%', $user->pass, $template);
 					$template = utf8_decode($template); // On gère les accents
 					
 					require_once(_lms_.'/class/class.phpmailer.php');

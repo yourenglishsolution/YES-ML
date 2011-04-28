@@ -178,7 +178,7 @@ a.activ { text-decoration:underline !important; }
 }
 
 /* Popup mon compte */
-.accountContener { width:700px; height:398px; font-size:15px; border:1px solid #CCC; }
+.accountContener { width:700px; height:398px; font-size:15px; border:1px solid #CCC; overflow:auto; }
 .accountContener h2 { padding:10px 0 0 13px; background:url(./images/content_bordertop.png) repeat-x transparent; height:38px; font-size:20px; color:#EEF1F6; }
 .accountInfos, .accountCommands { padding:5px; }
 .accountInfos label { font-weight:bold; }

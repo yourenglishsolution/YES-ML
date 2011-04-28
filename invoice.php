@@ -20,18 +20,22 @@ set_include_path('.'
 include_once _base_."/lib/Zend/Loader/Autoloader.php";
 $autoloader = Zend_Loader_Autoloader::getInstance();
 
-if(!isset($_GET['command_id'])) exit();
-$command_id = (int) $_GET['command_id'];
+if(!isset($_GET['payment'])) exit();
+$payment_id = (int) $_GET['payment'];
+
+include_once(_lms_."/models/PaymentLms.php");
+$mPayment = new PaymentLms();
+$payment = $mPayment->getPayment($payment_id);
 
 include_once(_lms_."/models/CommandLms.php");
 $mCommand = new CommandLms();
-$command = $mCommand->getCommand($command_id);
+$command = $mCommand->getCommand($payment->command_id);
 
 $user = Docebo::user();
 
 if($user->idst != $command->user_id) exit();
 
-$invoice = $mCommand->getInvoice($command_id);
+$invoice = $mPayment->getInvoice($payment->payment_id);
 
 include_once(_base_."/lib/tools/YesInvoice.php");
 $pdf = new YesInvoice();

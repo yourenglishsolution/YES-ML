@@ -85,20 +85,6 @@ class CommandLms extends Model
 		return $result;
 	}
 	
-	public function getInvoice($command_id)
-	{
-		$result = false;
-		
-		if($this->exists($command_id))
-		{
-		    $command_id = (int) $command_id;
-			$sql = "SELECT * FROM invoice WHERE command_id=".$command_id;
-			$result = $this->db->fetch_obj($this->db->query($sql));
-		}
-		
-		return $result;
-	}
-	
 	public function createCommand($user_id, $productsId = array())
 	{
 		$products = array();
@@ -255,27 +241,17 @@ class CommandLms extends Model
 						// Le code a été utilisé
 						$codeManager->setCodeUsed($code, $command->user_id);
 					}
-					
-					// On compte le nombre de paiement qu'il y a eu pour cet utilisateur
-        			$sql = "SELECT count(*) as nb FROM payment WHERE command_id = ".$command->command_id;
-        			$tempRow = $this->db->fetch_obj($this->db->query($sql));
-        			$tempCount = (int) $tempRow->nb;
-			
-					if($tempCount == (int) $product->abo_months)
-					{
-						$sql = "UPDATE command SET paid=UNIX_TIMESTAMP() WHERE command_id=".$command->command_id;
-						sql_query($sql);
-						
-						$this->createInvoice($command->command_id);
-					}
 				}
 			}
+			
+			// on crée la facture correspondant au paiement
+			$this->createInvoice($payment->payment_id);
 		}
 	}
 	
-	public function createInvoice($command_id)
+	public function createInvoice($payment_id)
 	{
 	    $mInvoice = new InvoiceLms();
-	    $mInvoice->createInvoice($command_id);
+	    $mInvoice->createInvoice($payment_id);
 	}
 }

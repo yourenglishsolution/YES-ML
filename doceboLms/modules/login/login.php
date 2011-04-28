@@ -469,7 +469,9 @@ function socialConnectLogin($uid=false, $network_code=false) {
 			Get::pReq('login_pwd', DOTY_STRING),
 			'public_area'
 		);
+		
 		if ($user) {
+		    
 			DoceboUser::setupUser($user);
 
 			$social =new Social();

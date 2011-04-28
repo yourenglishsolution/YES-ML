@@ -247,8 +247,6 @@ class User_API extends API {
 			$mail->AltBody = strip_tags($template);
 			$mail->Send();
 			
-			
-			
 			//subscribe to std groups
 			$group = $this->aclManager->getGroupST($level);//'/framework/level/user');
 			$this->aclManager->addToGroup($group, $id_user);
