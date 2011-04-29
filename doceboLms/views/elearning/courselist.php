@@ -31,6 +31,7 @@
 <div class="clear"></div>
 <? } ?>
 
+<? if($store_banner) { // On affiche ou pas la bannière promotionnelle ?>
 <div class="block firstBlock">
 	<div class="image_block">
 		<img src="<?php echo Get::tmpl_path(); ?>/style/images/content_pict1.png" alt="" width="164" height="166" />
@@ -51,6 +52,20 @@
 	</div>
 	<div class="clear"></div>
 </div>
+<? } else { // Bannière promotionnelle ?>
+<div class="block firstBlock freeBanner">
+	<div class="image_block">
+		<img src="<?php echo Get::tmpl_path(); ?>/style/images/content_pict1.png" alt="" width="164" height="166" />
+	</div>
+	<div class="desc">
+		<span class="title"><b>Hello !</b></span>
+		<p>Il vous est conseillé de réaliser une leçon de microlearning par jour, car l'anglais vient en pratiquant !<br/>Vos leçons de micolearning varieront en longueur (2 à 5 minutes) et en contenu pour une pratique diversifiée.</p>
+		<p class="sign">"Simple to use, easy to learn. Enjoy the experience"</p>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<? } ?>
 
 <div class="clear"></div>
 

@@ -53,11 +53,10 @@ if($playertemplate != '') {
 $idscorm_organization = $idResource;
 $idUser = (int)getLogUserId();
 
-$sql = 'SELECT idCourse FROM '.$GLOBALS['prefix_lms'].'_organization WHERE idResource="'.$idResource.'"';
+// On récupère l'incrément du cours pour l'affichage
+$sql = 'SELECT increment FROM '.$GLOBALS['prefix_lms'].'_organization o LEFT JOIN '.$GLOBALS['prefix_lms'].'_course c ON (o.idCourse=c.idCourse) WHERE o.idResource="'.$idResource.'"';
 $row = sql_fetch_object(sql_query($sql));
-$idCourse = $row->idCourse;
-
-/*Start database connection***********************************************/
+$idCourse = $row->increment;
 
 /* get scorm version */
 $scormVersion = getScormVersion( 'idscorm_organization', $idscorm_organization);

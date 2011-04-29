@@ -9,7 +9,11 @@
 
 ?>
 <div class="accountContener">
-	<h2>Mon compte</h2>
+	<h2>
+		Mon compte
+		<span class="popupClose"><a onclick="">X</a></span>
+	</h2>
+	
 	
 	<div class="accountInfos">
 		<h3>Mes informations</h3>

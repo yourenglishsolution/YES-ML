@@ -165,9 +165,9 @@ class SOAPLMS {
 			$sql = "SELECT count(*) as nb FROM ".$GLOBALS['prefix_lms']."_courseuser WHERE idUser=".((int)$idUser)." AND status=2";
 			$result = $db->fetch_obj($db->query($sql));
 			
-			if(((int) $result->nb) == 2)
+			if(((int) $result->nb) == 3)
 			{
-				// L'utilisateur à fini 2 quizz, on vérifie si il est bien en compte gratuit
+				// L'utilisateur à fini 3 quizz, on vérifie si il est bien en compte gratuit
 				$sql = "SELECT count(*) as nb FROM ".$GLOBALS['prefix_lms']."_courseuser WHERE idUser=".((int)$idUser);
 				$row = $db->fetch_obj($db->query($sql));
 				
@@ -188,7 +188,7 @@ class SOAPLMS {
 					$mail->AddAddress($user->email); // Destinataire
 					$mail->SetFrom('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Expéditeur
 					$mail->AddReplyTo('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Adresse de réponse
-					$mail->Subject = 'YES Microlearning - Plus que 3 cours disponibles';
+					$mail->Subject = 'YES Microlearning - Plus que 2 cours disponibles';
 					$mail->MsgHTML($template);
 					$mail->AltBody = strip_tags($template);
 					$mail->Send();

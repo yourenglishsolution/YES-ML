@@ -32,7 +32,18 @@
 			{
 				// Popup des pages de contenu
 				var contentPopup = new yesPopup('.contentPopup', { popupClass:'popupContent' });
-				var supportPopup = new yesPopup('.supportPopup', { popupClass:'popupSupport' });
+
+				// Gestion des boutons de fermeture des popups
+				contentPopup.addEvent('show', function()
+				{
+					document.getElements('.popupClose').each(function(item)
+					{
+						item.addEvent('click', function()
+						{
+							contentPopup.hidePopup();
+						});
+					});
+				});
 			});
 		</script>
 	</head>
@@ -67,7 +78,7 @@
 					<li><a class="<?=($action == 'elearning/show' || $action == '' ? 'activ' : '')?>" href="index.php?r=elearning/show&sop=unregistercourse">Parcours YES</a></li>
 					<li><a class="<?=($action == 'elearning/catalogue' ? 'activ' : '')?>" href="index.php?r=elearning/catalogue">Catalogue</a></li>
 					<li><a class="contentPopup" href="index.php?modname=pages&op=account">Mon compte</a></li>
-					<li><a class="supportPopup" href="index.php?modname=pages&op=support">Support</a></li>
+					<li><a class="contentPopup" href="index.php?modname=pages&op=support">Support</a></li>
 				</ul>
 			</div>
 			

@@ -1,4 +1,3 @@
-var yesTemp = false;
 var yesPopup = new Class({
 	
 	Implements : [Events, Options],
@@ -15,7 +14,8 @@ var yesPopup = new Class({
         overlay: true,
         popupClass: 'popup',
         maskClass: 'mask',
-        closeOnClick:false
+        closeOnClick:false,
+        closeButtons:false
     },
 
 	initialize: function(searchExp, options)

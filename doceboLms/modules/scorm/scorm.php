@@ -868,7 +868,7 @@ function createcontent()
 		        'abo_months' => 9,
 		        'course_count' => 180,
 		        'offer_text' => '0.75&euro; / jour',
-		        'description' => "Travaillez votre anglais à un rythme mesuré, en fonction de vos projets à cours et moyen terme.",
+		        'description' => "Travaillez votre anglais à un rythme mesuré, en fonction de vos projets à court et moyen terme.",
 		    ),
 		);
 		

@@ -84,6 +84,8 @@ a.activ { text-decoration:underline !important; }
 .footer a {color: #666;}
 .right .page { padding:10px 10px 30px 10px; background-color:#EEF1F6; }
 
+.freeBanner p { color:#72A6D8 !important; margin:5px 0; float:none !important; }
+.freeBanner p.sign { text-align:right; margin-right:50px; font-style:italic; }
 
 /* CODE */
 .writeCode { width:auto; height:239px; background-color: #EEF1F6; padding:15px 15px 15px 15px;}
@@ -127,6 +129,9 @@ a.activ { text-decoration:underline !important; }
 .cgv .sommaire { list-style:circle; margin:auto auto 20px 20px; }
 .cgv .toplink { text-align:right; font-size:12px; }
 
+
+.popupClose { color:#FFF; margin:4px 15px; font-size:14px; font-weight:bold; float:right; }
+.popupClose a { color:#FFF; cursor:pointer; }
 
 /* MASK */
 .mask, .waitMask
