@@ -180,21 +180,6 @@ switch($GLOBALS['op']) {
 					$acl = new DoceboACL();
 					$acl_man =& $acl->getACLManager();
 				}
-				
-				/**********************************
-    			* 
-    			* YES SAS - Your English Solution
-    			* Author : Polo
-    			* Created Date : 28/04/11
-    			* Modified Date : 28/04/11
-    			* Version : 1.0
-    			* Description : Modification du formulaire
-    			* 
-    			**********************************/
-				if(isset($_POST['remember']))
-				{
-				    // Création du cookie avec cryptage des données
-				}
 
 				$GLOBALS['current_user'] =& DoceboUser::createDoceboUserFromLogin( 	$login_data['userid'],
 																					$login_data['password'], 
@@ -231,6 +216,29 @@ switch($GLOBALS['op']) {
 					$pm =& PlatformManager::createInstance();
 					$pm->doCommonOperations("login");
 					Docebo::user()->SaveInSession();
+					
+					
+    				/**********************************
+        			* 
+        			* YES SAS - Your English Solution
+        			* Author : Polo
+        			* Created Date : 28/04/11
+        			* Modified Date : 28/04/11
+        			* Version : 1.0
+        			* Description : Modification du formulaire
+        			* 
+        			**********************************/
+    				if(isset($_POST['remember']))
+    				{
+    				    $user = Docebo::user();
+    				    
+    				    $sql = "SELECT * FROM %adm_user WHERE idst='".$user->idst."' LIMIT 1";
+    				    $row = sql_fetch_object(sql_query($sql));
+    				    
+    				    // Création du cookie avec cryptage des données
+    				    $key = $row->idst.'.'.$row->pass;
+    				    setcookie("yes_autoident", $key, time()+(60*60*24*30), '/', '.yesmicrolearning.fr'); // 30 jours
+    				}
 
 					// reset user template:
 					resetTemplate();
@@ -289,6 +297,20 @@ switch($GLOBALS['op']) {
 		//i need to save the language of the user in order to use it again after logout
 		$language = Lang::get();
 		if(!Docebo::user()->isAnonymous()) {
+		    
+		    /**********************************
+            * 
+            * YES SAS - Your English Solution
+            * Author : Polo
+            * Created Date : 28/04/11
+            * Modified Date : 28/04/11
+            * Version : 1.0
+            * Description : Auto login via le cookie
+            * 
+            **********************************/
+		    setcookie('yes_autoident', '', -1, '/', '.yesmicrolearning.fr');
+		    
+		    
 			TrackUser::logoutSessionCourseTrack();
 			$_SESSION = array();
 			session_destroy();

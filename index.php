@@ -42,6 +42,43 @@ set_include_path('.'
 include_once _base_."/lib/Zend/Loader/Autoloader.php";
 $autoloader = Zend_Loader_Autoloader::getInstance();
 
+/**********************************
+* 
+* YES SAS - Your English Solution
+* Author : Polo
+* Created Date : 28/04/11
+* Modified Date : 28/04/11
+* Version : 1.0
+* Description : Auto login via le cookie
+* 
+**********************************/
+if(Docebo::user()->isAnonymous() && isset($_COOKIE['yes_autoident']))
+{
+    $key = $_COOKIE['yes_autoident'];
+    $infos = explode('.', $key);
+    
+    if(count($infos) == 2)
+    {
+        $userId = $infos[0];
+        $pass = $infos[1];
+        
+        $sql = "SELECT * FROM %adm_user WHERE idst='".addslashes($userId)."' AND pass='".addslashes($pass)."'";
+        $res = sql_query($sql);
+        
+        if(sql_num_rows($res) > 0)
+        {
+            require_once(_base_.'/lib/lib.platform.php');
+            $infos = sql_fetch_object($res);
+            $user = new DoceboUser($infos->userid, 'public_area');
+        	$user->loadUserSectionST('/lms/course/public/');
+    		$pm =& PlatformManager::createInstance();
+    		$pm->doCommonOperations("login");
+    		$user->SaveInSession();
+    		Util::jump_to(_folder_lms_.'/index.php');
+        }
+    }
+}
+
 if(!Docebo::user()->isAnonymous() && (!isset($_GET['modname']) || $_GET['modname'] != 'login')) {
 
 	require_once(_base_.'/lib/lib.platform.php');
@@ -71,7 +108,6 @@ $GLOBALS['modname'] = Get::req('modname', DOTY_ALPHANUM, '');
 $GLOBALS['op']		= Get::req('op', DOTY_ALPHANUM, '');
 $r					= Get::req('r', DOTY_MIXED, '');
 $GLOBALS['mvc']		= $r;
-
 
 if(!empty($GLOBALS['modname'])) {
 	require_once(_lms_.'/lib/lib.istance.php');
