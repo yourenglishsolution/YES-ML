@@ -175,6 +175,11 @@ if(trim($playertemplate) != '') echo '	<link href="'.Get::tmpl_path().'/player_s
 			window.open("http://www.wordreference.com/enfr/"+document.getElementById("dico").value);
 			return false;
 		}
+		
+		function closeWindow()
+		{
+			window.close();
+		}
 		</script>
 
 		<link rel="stylesheet" type="text/css" href="../templates/standard/yui-skin/logger.css" />
@@ -190,7 +195,9 @@ if(trim($playertemplate) != '') echo '	<link href="'.Get::tmpl_path().'/player_s
 							#lbl_dico		{text-shadow: none;}
 							#dico				{width: 194px; height: 30px; padding: 0; border: 0; line-height: 35px;}	
 						#btn_dico		{display: block; float: left; height: 24px; width: 76px; margin-top: 5px; margin-left: 5px;}
-					#iframe_c_r 		{float: right; line-height: 48px; margin-right: 43px; font-size: 12px;}
+					#iframe_c_r 		{float: right; line-height: 48px; margin-right: 50px; font-size: 12px;}
+			.close { display:block; float:right; padding-top:5px; }
+			.close img { border:0; }
 		</style>';
 	
 echo '</head>'."\n";
@@ -217,9 +224,11 @@ echo '<body class="yui-skin-sam" id="page_head" class="'.$playertemplate.'" onun
 				</div>
 				<a id="btn_dico" onclick="javascript:opendico();"><img src="../templates/yes/images/scorm/btn_ok.png" alt="" /></a>
 			</div>
+			<a class="close" href="#" onclick="closeWindow()" title="Close"><img alt="Close" src="../templates/yes/images/scorm/close.png" width="40" height="40" /></a>
 			<div id="iframe_c_r">
-				Copyright © 2011 YES SAS All rights reserved.
+				Copyright © 2011 YES SAS All rights reserved. 
 			</div>
+			
 		</div>
 	</div>
 	<div id="scocontent" class="scocontent'.$class_extension.'">
