@@ -18,7 +18,7 @@
         				<p><?=$product->description?></p>
         				<div class="more">
                 			<span class="price"><?=$product->offer_text?></span><br/>
-                			<span class="little">(soit <?=($product->course_count/$product->abo_months)?> microlearning/mois pour <?=ProductLms::getTTC($product->amount_ht/$product->abo_months)?> &euro;)</span><br/>
+                			<span class="little">(soit <?=ProductLms::getTTC($product->amount_ht/$product->abo_months)?> &euro;/mois pour <?=($product->course_count/$product->abo_months)?> microlearning*)</span><br/>
                 			<a href="index.php?r=elearning/product&idproduct=<?=$product->idProduct?>" class="button"><span><span><span>Je m’abonne !</span></span></span></a>
             			</div>
             		</div>
@@ -28,5 +28,5 @@
         </div>
     </div>
 	<div class="clear"></div>
-	
+	<p class="def">* Un microlearning est un exercice de quelques minutes.</p>
 </div>

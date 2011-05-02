@@ -11,7 +11,7 @@
 <div class="accountContener">
 	<h2>
 		Mon compte
-		<span class="popupClose"><a onclick="">X</a></span>
+		<span class="popupClose"><a>X</a></span>
 	</h2>
 	
 	

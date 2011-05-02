@@ -271,7 +271,7 @@ class ElearningLmsController extends LmsController {
 			'path_course' => $this->path_course,
 			'courselist' => $courselist,
 			'use_label' => $ma->currentCanAccessObj('tb_label'),
-		    'store_banner' => ($count > 0 && ($count%3 == 0))
+		    'store_banner' => ($count > 0 && ($count%5 == 3 || $count%5 == 4))
 		));
 	}
 
@@ -304,7 +304,7 @@ class ElearningLmsController extends LmsController {
 			'path_course' => $this->path_course,
 			'courselist' => $courselist,
 			'use_label' => $ma->currentCanAccessObj('tb_label'),
-		    'store_banner' => ($count > 0 && ($count%3 == 0))
+		    'store_banner' => ($count > 0 && ($count%5 == 3 || $count%5 == 4))
 		));
 	}
 	

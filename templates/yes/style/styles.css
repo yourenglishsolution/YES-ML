@@ -6,6 +6,7 @@ html, body { font-family: 'Droid Sans', Arial; color:#575A5F; background-color:#
 .textRight { text-align:right; }
 .textCenter { text-align:center; }
 a.activ { text-decoration:underline !important; }
+.def { color:#ADB8BF; font-size:12px; margin:5px 0 0 10px; }
 
 .contener { padding: 0px; width:100%; }
 .header {margin-top: 30px; overflow: hidden;}
