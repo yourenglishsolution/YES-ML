@@ -3,3 +3,4 @@ config.php
 .project
 .settings/
 .settings/*
+files/doceboLms/scorm/*
