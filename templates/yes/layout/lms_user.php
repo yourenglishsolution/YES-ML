@@ -10,6 +10,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="fr" />
 		
+		<link rel="shortcut icon" href="<?php echo Layout::path(); ?>/style/images/favicon.ico" type="image/x-con" />
+		<link rel="icon" href="<?php echo Layout::path(); ?>/style/images/favicon.ico" type="image/x-con" />
+		
 		<link rel="stylesheet" type="text/css" href="<?php echo Layout::path(); ?>/style/reset.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo Layout::path(); ?>/style/styles.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo Layout::path(); ?>/style/slide.css" />

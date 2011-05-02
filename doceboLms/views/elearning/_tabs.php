@@ -1,17 +1,3 @@
-<?/*
-	function hex2bin($h)
-	{
-		if (!is_string($h)) return null;
-		$r='';
-		for ($a=0; $a<strlen($h); $a+=2) { $r.=chr(hexdec($h{$a}.$h{($a+1)})); }
-		return $r;
-	}
-  
-	$sql = 'SELECT * FROM '.$GLOBALS['prefix_lms'].'_scorm_tracking WHERE score_raw>0';
-	$packages = mysql_fetch_object(mysql_query($sql));
-	var_dump(hex2bin(bin2hex($packages->xmldata)));
-*/?>
-
 <div class="top">
 	<span class="title">Microlearning <? echo Docebo::user()->getMainGroupLabel()?></span>
 	<div>
@@ -145,7 +131,7 @@
 				// Test pour ne pas afficher 2 fois le même message
 				if(!intInterupt)
 				{
-					alert("Vous avez été déconnecté, vous allez être redirigé sur la page d'identification.");
+					alert("Vous avez été déconnecté, vous allez être redirigé vers la page d'identification.");
 					intInterupt = true; // On interrompt la mise à jour du contenu
 					window.location = 'index.php'; // On redirige sur le login
 				}

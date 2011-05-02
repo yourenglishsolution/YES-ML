@@ -31,7 +31,7 @@
 <div class="clear"></div>
 <? } ?>
 
-<? if(true || isset($store_banner) && $store_banner) { // On affiche ou pas la bannière promotionnelle ?>
+<? if(isset($store_banner) && $store_banner) { // On affiche ou pas la bannière promotionnelle ?>
 <div class="block firstBlock">
 	<div class="image_block">
 		<img src="<?php echo Get::tmpl_path(); ?>/style/images/content_pict1.png" alt="" width="164" height="166" />

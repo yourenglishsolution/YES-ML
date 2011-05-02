@@ -3,7 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo Layout::lang_code(); ?>">
 	<head>
 		<title><?php echo Layout::title(); ?></title>
-		<link rel="shortcut icon" href="<?php echo Layout::path(); ?>images/favicon.png" type="image/png" />
+		<link rel="shortcut icon" href="<?php echo Layout::path(); ?>/style/images/favicon.ico" type="image/x-con" />
+		<link rel="icon" href="<?php echo Layout::path(); ?>/style/images/favicon.ico" type="image/x-con" />
 		<link rel="stylesheet" type="text/css" href="<?php echo Layout::path(); ?>/style/login.css" />
 		
 		<script type="text/javascript" src="<?php echo Layout::path(); ?>/js/mootools.js" /></script>
