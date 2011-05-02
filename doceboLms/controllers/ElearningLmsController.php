@@ -291,12 +291,20 @@ class ElearningLmsController extends LmsController {
 		for ($i=0; $i<count($keys); $i++) {
 			$courselist[$keys[$i]]['can_enter'] = Man_Course::canEnterCourse($courselist[$keys[$i]]);
 		}
+		
+		// On regarde le nombre de cours terminé (pour l'affichage de la bannière)
+		$user = Docebo::user();
+		$sql = "SELECT count(*) as nb FROM ".$GLOBALS['prefix_lms']."_courseuser WHERE idUser=".$user->idst." AND status=2";
+		$row = sql_fetch_object(sql_query($sql));
+		$count = (int) $row->nb;
+		
 		require_once(_lms_.'/lib/lib.middlearea.php');
 		$ma = new Man_MiddleArea();
 		$this->render('courselist', array(
 			'path_course' => $this->path_course,
 			'courselist' => $courselist,
-			'use_label' => $ma->currentCanAccessObj('tb_label')
+			'use_label' => $ma->currentCanAccessObj('tb_label'),
+		    'store_banner' => ($count > 0 && ($count%3 == 0))
 		));
 	}
 	
