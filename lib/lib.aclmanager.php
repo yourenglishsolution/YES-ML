@@ -388,7 +388,7 @@ class DoceboACLManager {
 	function registerUser( $userid, $firstname, $lastname,
 							$pass, $email, $avatar,
 							$signature, $alredy_encripted = false, $idst = false, $pwd_expire_at = '', $force_change = '',
-							$facebook_id = FALSE, $twitter_id = FALSE, $linkedin_id = FALSE, $google_id = FALSE) {
+							$facebook_id = FALSE, $twitter_id = FALSE, $linkedin_id = FALSE, $google_id = FALSE, $api_flag = false) {
 
 		if($idst === false) $idst = $this->_createST();
 		if($idst == 0) return false;
@@ -399,14 +399,15 @@ class DoceboACLManager {
 		}
 		$query = "INSERT INTO ".$this->_getTableUser()
 				." (idst, userid, firstname, lastname, pass, email, avatar, signature, pwd_expire_at, "
-				."  register_date, force_change, facebook_id, twitter_id, linkedin_id, google_id) "
+				."  register_date, force_change, facebook_id, twitter_id, linkedin_id, google_id, api_flag) "
 				."VALUES ( '".$idst."', '".$userid."', '".$firstname."', '".$lastname."', "
 				.		 " '".( $alredy_encripted === true ? $pass : $this->encrypt($pass) )."', "
 				.		 " '".$email."', '".$avatar."', '".$signature."', '".$pwd_expire_at."', '".date("Y-m-d H:i:s")."', '".$force_change."', "
 				.(!empty($facebook_id) ? "'".$facebook_id."'" : "NULL").", "
 				.(!empty($twitter_id) ? "'".$twitter_id."'" : "NULL").", "
 				.(!empty($linkedin_id) ? "'".$linkedin_id."'" : "NULL").", "
-				.(!empty($google_id) ? "'".$google_id."'" : "NULL")." "
+				.(!empty($google_id) ? "'".$google_id."'" : "NULL").", "
+				.(!empty($api_flag) ? "'".$api_flag."'" : "")." "
 				.")";
 
 		if( $this->_executeQuery( $query ) ) {

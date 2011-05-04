@@ -201,7 +201,6 @@ class User_API extends API {
 			$password = DoceboUser::generatePassword();
 		}
 		
-		// TODO : générer un MDP aléatoire
 		$id_user = $this->aclManager->registerUser(
 			$userdata['userid'],
 			(isset($userdata['firstname']) ? $userdata['firstname'] : '' ),
@@ -212,7 +211,9 @@ class User_API extends API {
 			(isset($userdata['signature']) ? $userdata['signature'] : ''),
 			false,
 			$set_idst,
-			(isset($userdata['pwd_expire_at']) ? $userdata['pwd_expire_at'] : '')
+			(isset($userdata['pwd_expire_at']) ? $userdata['pwd_expire_at'] : ''),
+			null, null, null, null, null,
+			(isset($userdata['api_flag']) ? $userdata['api_flag'] : '')
 		);
 
 		if(!$id_user) return false;

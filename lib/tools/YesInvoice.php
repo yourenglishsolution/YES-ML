@@ -39,8 +39,12 @@ class YesInvoice extends MyPdfStructure
 		// Liste champs du total
 		$totals = array();
 		$totals[] = array('label' => 'Total HT', 'price' => $this->invoice->amount_ht);
-		if($this->invoice->discount_rate > 0) $totals[] = array('label' => 'Remise ('.round($this->invoice->discount_rate*100).' %)', 'price' => $this->invoice->amount_ht*$this->invoice->discount_rate);
-		$totals[] = array('label' => 'TVA', 'price' => $this->invoice->amount_tva);
+		if($this->invoice->discount_rate > 0)
+		{
+		    $totals[] = array('label' => 'Remise ('.round($this->invoice->discount_rate*100).' %)', 'price' => $this->invoice->amount_ht*$this->invoice->discount_rate);
+		    $totals[] = array('label' => 'Total remisé', 'price' => $this->invoice->amount_ht-round($this->invoice->amount_ht*$this->invoice->discount_rate, 2));
+		}
+		$totals[] = array('label' => 'TVA ('.round($this->invoice->tva_rate*100, 1).' %)', 'price' => $this->invoice->amount_tva);
 		$totals[] = array('label' => 'Total TTC *', 'price' => $this->invoice->amount_ttc);
 		
 		$top = parent::createTotals($totals);
@@ -51,6 +55,6 @@ class YesInvoice extends MyPdfStructure
 		$top = 25;
 		$this->pdf->addText('Date : '.date('d/m/Y', $this->invoice->crea), 370, $top);
 		$this->pdf->addText('Facture n° : '.sprintf("%04s", $this->invoice->invoice_id).date('ym'), 370, $top+15);
-		$this->pdf->addText('Correspondant à la commande n° : '.sprintf("%04s", $this->invoice->command_id), 370, $top+25);
+		$this->pdf->addText('Commande n° : '.sprintf("%04s", $this->invoice->command_id), 370, $top+30);
 	}
 }
