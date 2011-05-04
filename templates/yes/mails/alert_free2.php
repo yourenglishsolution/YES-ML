@@ -1,5 +1,6 @@
 <p>Hello %name%,</p>
-<p>Vous avez terminé vos 5 leçons offertes par YES pour découvrir notre offre Microlearning. Si vous souhaitez prolonger votre expérience avec YES, n'hésitez pas à consulter nos offres en accédant à la <a href="http://www.yesmicrolearning.fr/redirect.php?email=%email%&code=%code%">YES Store</a>.</p>
+<p>Vous avez terminé vos 5 leçons offertes par YES pour découvrir notre offre Microlearning.</p>
+<p>Afin de profiter pleinement de notre formation à l'anglais et des tarifs préférentiels dont vous disposez en tant qu'abonné Monster.fr, n'hésitez pas à consulter nos offres en accédant à la <a href="http://www.yesmicrolearning.fr/redirect.php?email=%email%&code=%code%">YES Store</a>.</p>
 <p>Vous pouvez également revoir vos résultats ainsi que les leçons précédemment réalisées en vous connectant à votre interface <a href="http://www.yourenglishsolution.fr">YES Microlearning</a>.</p>
 <p>The YES Team</p>
 

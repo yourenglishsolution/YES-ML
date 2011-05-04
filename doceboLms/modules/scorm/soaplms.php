@@ -186,9 +186,9 @@ class SOAPLMS {
 					require_once(_lms_.'/class/class.phpmailer.php');
 					$mail = new PHPMailer(); // On active les exceptions
 					$mail->AddAddress($user->email); // Destinataire
-					$mail->SetFrom('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Expéditeur
-					$mail->AddReplyTo('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Adresse de réponse
-					$mail->Subject = 'YES Microlearning - Plus que 2 cours disponibles';
+					$mail->SetFrom('inscription@yourenglishsolution.fr', 'Monster & YES'); // Expéditeur
+					$mail->AddReplyTo('inscription@yourenglishsolution.fr', 'Monster & YES'); // Adresse de réponse
+					$mail->Subject = utf8_decode('YES Microlearning - Plus que 2 cours disponibles');
 					$mail->MsgHTML($template);
 					$mail->AltBody = strip_tags($template);
 					$mail->Send();
@@ -217,7 +217,7 @@ class SOAPLMS {
 					$mail->AddAddress($user->email); // Destinataire
 					$mail->SetFrom('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Expéditeur
 					$mail->AddReplyTo('inscription@yourenglishsolution.fr', 'Microlearning Team'); // Adresse de réponse
-					$mail->Subject = 'YES Microlearning - Découvrez les bibliothèques de la YES Store';
+					$mail->Subject = utf8_decode('YES Microlearning - Découvrez les bibliothèques de la YES Store');
 					$mail->MsgHTML($template);
 					$mail->AltBody = strip_tags($template);
 					$mail->Send();

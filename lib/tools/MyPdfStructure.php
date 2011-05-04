@@ -68,7 +68,9 @@ abstract class MyPdfStructure
 	protected function setFooter()
 	{
 		$this->pdf->setFont(10);
-		$this->pdf->addText('YES - http://www.yourenglishsolution.fr - Siret : 500 492 210 00058', 130, 800);
+		$this->pdf->addText("www.yourenglishsolution.fr", 240, 790);
+		$this->pdf->addText('YES S.A.S. au capital social de 200 000 euros - Siège Social : 1 rue de Gramont 75 002 Paris - France', 60, 800);
+		$this->pdf->addText("Siret 500 492 210 00058 - TVA FR 62 500 492 210", 180, 810);
 	}
 	
 	protected function createFrom()

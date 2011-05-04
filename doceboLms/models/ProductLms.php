@@ -46,4 +46,12 @@ class ProductLms extends Model
 	{
 		return number_format($price, 2, ',', ' ');
 	}
+	
+	public static function doDiscount($price, $discount = 0, $dif = false)
+	{
+	    $result = 0;
+	    if($dif) $result = $price*$discount;
+	    else $result = $price - ($price*$discount);
+	    return round($result, 2);
+	}
 }

@@ -219,7 +219,7 @@ echo '<body class="yui-skin-sam" id="page_head" class="'.$playertemplate.'" onun
 			</div>
 			<div id="iframe_c_dico">
 				<div id="iframe_dico_l">
-					<label for="dico" id="lbl_dico">Aa</label>
+					<label for="dico" id="lbl_dico">Dictionary</label>
 					<input type="text" id="dico" />
 				</div>
 				<a id="btn_dico" onclick="javascript:opendico();"><img src="../templates/yes/images/scorm/btn_ok.png" alt="" /></a>

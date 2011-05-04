@@ -39,8 +39,8 @@ class YesInvoice extends MyPdfStructure
 		// Liste champs du total
 		$totals = array();
 		$totals[] = array('label' => 'Total HT', 'price' => $this->invoice->amount_ht);
+		if($this->invoice->discount_rate > 0) $totals[] = array('label' => 'Remise ('.round($this->invoice->discount_rate*100).' %)', 'price' => $this->invoice->amount_ht*$this->invoice->discount_rate);
 		$totals[] = array('label' => 'TVA', 'price' => $this->invoice->amount_tva);
-		if($this->invoice->discount > 0) $totals[] = array('label' => 'Remise', 'price' => $this->invoice->discount);
 		$totals[] = array('label' => 'Total TTC *', 'price' => $this->invoice->amount_ttc);
 		
 		$top = parent::createTotals($totals);

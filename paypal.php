@@ -57,14 +57,8 @@ if(isset($_GET['op']))
 					$product_id = $custom[1];
 					$amount_ttc = (float) $data['mc_gross']; // Montant de l'abonnement
 					
-					$command = $mCommand->getUserProductCommand($user_id, $product_id);
-					
-					if(!$command)
-					{
-						// Aucune commande n'existe pour ce produit, on en crée une
-						$command_id = $mCommand->createCommand($user_id, array($product_id));
-						$command = $mCommand->getCommand($command_id);
-					}
+					$command_id = $mCommand->createCommand($user_id, $product_id);
+					$command = $mCommand->getCommand($command_id);
 					
 					$mCommand->receivePayment($command->command_id, $amount_ttc, $data);
 					
@@ -98,7 +92,7 @@ if(isset($_GET['op']))
 	else
 	{
 		// Erreur HTTP
-		mail('j.pouillard@effigie-creations.com', 'debug', 'erreur http');
+		mail('j.pouillard@effigie-creations.com', 'debug', 'erreur http ou retour annulation');
 	}
 	
 	curl_close($ch);

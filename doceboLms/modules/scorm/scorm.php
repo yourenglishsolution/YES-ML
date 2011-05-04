@@ -848,26 +848,29 @@ function createcontent()
 		
 		$productData = array(
 		    1 => array(
-		    	'amount_ht' => 50.1672,
+		    	'amount_ht' => 16.7224,
 		        'abo_months' => 3,
 		        'course_count' => 60,
+		        'discount_rate' => 0,
 		        'offer_text' => '1&euro; / jour',
 		        'description' => "Un entretien à préparer ? un voyage en perspective ? Cette option vous permet de progresser rapidement",
 		    ),
 		    
 		    2 => array(
-		    	'amount_ht' => 90.3010,
+		    	'amount_ht' => 15.0502,
 		        'abo_months' => 6,
 		        'course_count' => 120,
-		        'offer_text' => '0.90&euro; / jour',
+		        'discount_rate' => 0.10,
+		        'offer_text' => '1&euro; / jour',
 		        'description' => "Vous prévoyez une évolution professionnelle ? N'hésitez pas à pratiquer pendant 6 mois ou plus pour une progression durable.",
 		    ),
 		    
 		    3 => array(
-		    	'amount_ht' => 112.8762,
+		    	'amount_ht' => 12.5418,
 		        'abo_months' => 9,
 		        'course_count' => 180,
-		        'offer_text' => '0.75&euro; / jour',
+				'discount_rate' => 0.10,
+		        'offer_text' => '1&euro; / jour',
 		        'description' => "Travaillez votre anglais à un rythme mesuré, en fonction de vos projets à court et moyen terme.",
 		    ),
 		);
@@ -876,7 +879,7 @@ function createcontent()
 		
 		for($i=1 ; $i<=3 ; $i++)
 		{
-		    $query = "INSERT INTO %lms_product (idCategory, code, title, description, amount_ht, abo_months, course_count, offer_text, crea) VALUES (".$row->idCategory.", '".$row->code."', '".$row->code." : ".$productData[$i]['abo_months']." mois de Microlearning', \"".$productData[$i]['description']."\", ".$productData[$i]['amount_ht'].", ".$productData[$i]['abo_months'].", ".$productData[$i]['course_count'].", '".$productData[$i]['offer_text']."', UNIX_TIMESTAMP())";
+		    $query = "INSERT INTO %lms_product (idCategory, code, title, description, amount_ht, abo_months, course_count, offer_text, discount_rate, crea) VALUES (".$row->idCategory.", '".$row->code."', '".$row->code." : ".$productData[$i]['abo_months']." mois de Microlearning', \"".$productData[$i]['description']."\", ".$productData[$i]['amount_ht'].", ".$productData[$i]['abo_months'].", ".$productData[$i]['course_count'].", '".$productData[$i]['offer_text']."', '".$productData[$i]['discount_rate']."', UNIX_TIMESTAMP())";
 		    sql_query($query);
 		}
 	}

@@ -29,44 +29,33 @@
 	<hr/>
 	<div class="accountCommands">
 		<h3>Mes Abonnements</h3>
-		<?
-			foreach($commands as $key => $command)
-			{
-				$products = $mCommand->getProducts($command->command_id);
-				$product = array_shift($products);
-		?>
 		<div class="abo">
-			<p>
-				<b>#<?=date('d/m/Y', $command->crea)?></b> - <?=$product->title?>
-			</p>
 			<div>
-				<h4>Liste des paiements</h4>
 				<table>
 					<thead>
 						<tr>
-							<th>N°</th>
+							<th>Offre</th>
 							<th>Date</th>
 							<th>Montant TTC</th>
 							<th>Facture</th>
 						</tr>
 					</thead>
-					<?
-						$payments = $mCommand->getPayments($command->command_id);
-						foreach($payments as $key => $payment) {
-					?>
+            		<?
+            			foreach($commands as $key => $command)
+            			{
+            				$product = $mCommand->getProduct($command->command_id);
+            				$payment = $mCommand->getPayment($command->command_id);
+            		?>
 					<tr>
-						<td><?=($key+1)?></td>
-						<td><?=date('d/m/Y \à H:i', $payment->crea)?></td>
+						<td><?=$product->title?></td>
+						<td><?=date('d/m/Y', $payment->crea)?></td>
 						<td><?=ProductLms::priceFormat($payment->amount_ttc)?>&euro;</td>
-						<td>
-            				<a href="../invoice.php?payment=<?=$payment->payment_id?>">Imprimer votre facture</a>
-						</td>
+						<td><a href="../invoice.php?payment=<?=$payment->payment_id?>">Imprimer votre facture</a></td>
 					</tr>
-					<? } ?>
+					<? } ?>
 				</table>
 			</div>
 		</div>
-		<? } ?>
 	</div>
 	<? } ?>
 </div>

@@ -55,9 +55,9 @@ define('_MAILS_TEMPLATE_PATH', _base_.'/templates/yes/mails/');
 define('_PDF_LOGO_HEADER', _base_.'/templates/yes/style/images/img_logo.png');
 
 /* PAYPAL */
-define('_PAYPAL_ACCOUNT_URL', 'https://www.paypal.com/fr/cgi-bin/webscr');
-define('_PAYPAL_ACCOUNT_MAIL', 'paypal@yourenglishsolution.com');
+//define('_PAYPAL_ACCOUNT_URL', 'https://www.paypal.com/fr/cgi-bin/webscr');
+//define('_PAYPAL_ACCOUNT_MAIL', 'paypal@yourenglishsolution.com');
 
 // test
-//define('_PAYPAL_ACCOUNT_URL', 'https://www.sandbox.paypal.com/cgi-bin/webscr');
-//define('_PAYPAL_ACCOUNT_MAIL', 'selsel_1301991925_biz@effigie-creations.com');
+define('_PAYPAL_ACCOUNT_URL', 'https://www.sandbox.paypal.com/cgi-bin/webscr');
+define('_PAYPAL_ACCOUNT_MAIL', 'selsel_1301991925_biz@effigie-creations.com');

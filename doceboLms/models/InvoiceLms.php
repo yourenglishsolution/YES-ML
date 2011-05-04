@@ -27,29 +27,23 @@ class InvoiceLms extends Model
 	    $command = $mCommand->getCommand($payment->command_id);
 	    $user = $mCommand->getUser($command->command_id);
 	    
-	    $amount_ht = round(($payment->amount_ttc / 1.196), 4);
-	    $amount_ttc = $payment->amount_ttc;
-	    $amount_tva = $amount_ttc - $amount_ht;
+	    $amount_ht = round($command->amount_ht, 2);
+	    $discount_rate = $command->discount_rate;
+	    $amount_ttc = round($command->amount_ttc, 2);
+	    $amount_tva = $amount_ttc - ($amount_ht - round($amount_ht * $discount_rate, 2)); // Pour gérer les arrondis
 	    
 	    // On insère la facture
-	    $sql = "INSERT INTO invoice (command_id, payment_id, client, address_street, address_city, address_zip, address_country, amount_ht, tva_rate, amount_tva, amount_ttc, crea) VALUES (".$payment->command_id.", ".$payment->payment_id.", '".$user->lastname." ".$user->firstname."', '".$payment->address_street."', '".$payment->address_city."', '".$payment->address_zip."', '".$payment->address_country."', '".$amount_ht."', '".$command->tva_rate."', '".$amount_tva."', '".$amount_ttc."', UNIX_TIMESTAMP())";
+	    $sql = "INSERT INTO invoice (command_id, payment_id, client, address_street, address_city, address_zip, address_country, amount_ht, discount_rate, tva_rate, amount_tva, amount_ttc, crea) VALUES (".$payment->command_id.", ".$payment->payment_id.", '".$user->lastname." ".$user->firstname."', '".$payment->address_street."', '".$payment->address_city."', '".$payment->address_zip."', '".$payment->address_country."', '".$amount_ht."', '".$discount_rate."', '".$command->tva_rate."', '".$amount_tva."', '".$amount_ttc."', UNIX_TIMESTAMP())";
 	    $this->db->query($sql);
 		$invoice_id = mysql_insert_id();
 		
 		// On récupère le produit concernée dans la commande
-		$product = null;
 		$mProduct = new ProductLms();
-		foreach($mCommand->getLines($payment->command_id) as $line)
-		{
-		    $product = $mProduct->getProduct($line->product_id);
-		}
+		$product = $mProduct->getProduct($command->product_id);
 		
-		if($product !== false && !is_null($product))
-		{
-    		// On crée les lignes de la facture
-    		$sql = "INSERT INTO invoice_line (invoice_id, product_id, label, amount_ht) VALUES ('".$invoice_id."', '".$product->product_id."', '".$product->title."',  '".$amount_ht."')";
-    		$this->db->query($sql);
-		}
+		// On crée les lignes de la facture
+		$sql = "INSERT INTO invoice_line (invoice_id, product_id, label, amount_ht) VALUES ('".$invoice_id."', '".$command->product_id."', '".$product->title."',  '".$product->amount_ht."')";
+		$this->db->query($sql);
 	}
 	
 	public function getInvoice($invoice_id)
