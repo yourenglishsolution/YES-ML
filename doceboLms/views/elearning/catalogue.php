@@ -18,10 +18,12 @@
             			<div class="data">
             				<p><?=$product->description?></p>
             				<div class="more">
+            					<? if($product->discount_rate > 0) { ?>
+            					<a href="index.php?r=elearning/product&idproduct=<?=$product->idProduct?>">
+            						<img src="/templates/yes/images/bandeau_monster.png" />
+            					</a>
+            					<? } ?>
                     			<span class="price"><?=$product->offer_text?></span><br/>
-                    			<? if($product->discount_rate > 0) { ?>
-                    			<span class="little">Bénéficier d'une remise de <?=($product->discount_rate*100)?>% en choisissant cette formule</span><br/>
-                    			<? } ?>
                     			<a href="index.php?r=elearning/product&idproduct=<?=$product->idProduct?>" class="button"><span><span><span>Je m’abonne !</span></span></span></a>
                 			</div>
                 		</div>

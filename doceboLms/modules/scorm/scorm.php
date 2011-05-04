@@ -861,7 +861,7 @@ function createcontent()
 		        'abo_months' => 6,
 		        'course_count' => 120,
 		        'discount_rate' => 0.10,
-		        'offer_text' => '1&euro; / jour',
+		        'offer_text' => '0.90&euro; / jour',
 		        'description' => "Vous prévoyez une évolution professionnelle ? N'hésitez pas à pratiquer pendant 6 mois ou plus pour une progression durable.",
 		    ),
 		    
@@ -870,7 +870,7 @@ function createcontent()
 		        'abo_months' => 9,
 		        'course_count' => 180,
 				'discount_rate' => 0.10,
-		        'offer_text' => '1&euro; / jour',
+		        'offer_text' => '0.75&euro; / jour',
 		        'description' => "Travaillez votre anglais à un rythme mesuré, en fonction de vos projets à court et moyen terme.",
 		    ),
 		);

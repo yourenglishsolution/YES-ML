@@ -51,5 +51,6 @@ class YesInvoice extends MyPdfStructure
 		$top = 25;
 		$this->pdf->addText('Date : '.date('d/m/Y', $this->invoice->crea), 370, $top);
 		$this->pdf->addText('Facture n° : '.sprintf("%04s", $this->invoice->invoice_id).date('ym'), 370, $top+15);
+		$this->pdf->addText('Correspondant à la commande n° : '.sprintf("%04s", $this->invoice->command_id), 370, $top+25);
 	}
 }

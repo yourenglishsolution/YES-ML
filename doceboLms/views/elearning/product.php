@@ -47,9 +47,9 @@ function checkCgv()
 					<form id="paypalForm" action="<?=_PAYPAL_ACCOUNT_URL?>" method="post">
 						<input type="hidden" name="cmd" value="_xclick-subscriptions">
 						<input type="hidden" name="business" value="<?=_PAYPAL_ACCOUNT_MAIL?>">
-						<input name="return" type="hidden" value="http://www.yes-microlearning.com/return.php" />
-						<input name="cancel_return" type="hidden" value="http://www.yes-microlearning.com/cancel.php" />
-						<input name="notify_url" type="hidden" value="http://www.yes-microlearning.com/paypal.php?op=ok" />
+						<input name="return" type="hidden" value="http://www.yesmicrolearning.com/return.php" />
+						<input name="cancel_return" type="hidden" value="http://www.yesmicrolearning.com/cancel.php" />
+						<input name="notify_url" type="hidden" value="http://www.yesmicrolearning.com/paypal.php?op=ok" />
 						<input type="hidden" name="lc" value="FR">
 						<input type="hidden" name="item_name" value="<?=$product->title?>">
 						<input type="hidden" name="item_number" value="1">

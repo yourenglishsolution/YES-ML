@@ -84,7 +84,6 @@ abstract class MyPdfStructure
 			$this->pdf->addText('Mel : '.$this->from['mail'], 55, $top+55);
 			$this->pdf->addText('Tel : '.$this->from['phone'], 55, $top+70);
 			if($this->from['fax'] != '') $this->pdf->addText('Fax : '.$this->from['fax'], 55, $top+85);
-			
 		}
 	}
 	
